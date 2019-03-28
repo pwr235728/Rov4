@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model DCW05A-05
+#/1227299/121809/2.37/8/4/Power Supply
+DEF DCW05A-05 PS 0 30 Y Y 1 F N
+F0 "PS" 1150 300 50 H V L CNN
+F1 "DCW05A-05" 1150 200 50 H V L CNN
+F2 "DCW05A05" 1150 100 50 H I L CNN
+F3 "http://www.meanwell.com/Upload/PDF/DCW05/DCW05-SPEC.PDF" 1150 0 50 H I L CNN
+F4 "Isolated DC/DC Converters 9-18Vin +/-5Vout 50-500mA, 5W" 1150 -100 50 H I L CNN "Description"
+F5 "12" 1150 -200 50 H I L CNN "Height"
+F6 "709-DCW05A-05" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=709-DCW05A-05" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Mean Well" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "DCW05A-05" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X -VIN_1 2 0 0 200 R 50 50 0 0 B
+X -VIN_2 3 0 -100 200 R 50 50 0 0 B
+X COM_1 9 0 -200 200 R 50 50 0 0 B
+X -VOUT 11 0 -300 200 R 50 50 0 0 B
+X +VOUT 14 1300 0 200 L 50 50 0 0 B
+X COM_2 16 1300 -100 200 L 50 50 0 0 B
+X +VIN_1 22 1300 -200 200 L 50 50 0 0 B
+X +VIN_2 23 1300 -300 200 L 50 50 0 0 B
+P 5 0 1 6 200 100 1100 100 1100 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
