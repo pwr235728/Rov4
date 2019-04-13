@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IPT004N03LATMA1
+D MOSFET LV POWER MOS
+K
+F https://componentsearchengine.com/Datasheets/1/IPT004N03LATMA1.pdf
+$ENDCMP
+#
+#End Doc Library
