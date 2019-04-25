@@ -287,7 +287,7 @@ U 1 1 5CA37264
 P 9750 6450
 F 0 "J20" V 9650 6300 50  0000 R CNN
 F 1 "Extra" V 9850 6500 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9750 6450 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9750 6450 50  0001 C CNN
 F 3 "~" H 9750 6450 50  0001 C CNN
 	1    9750 6450
 	0    -1   1    0   
@@ -298,7 +298,7 @@ U 1 1 5CA372BA
 P 9350 6450
 F 0 "J19" V 9250 6300 50  0000 R CNN
 F 1 "Extra" V 9450 6500 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9350 6450 50  0001 C CNN
+F 2 "Connector_Molex:Molex_SPOX_5267-02A_1x02_P2.50mm_Vertical" H 9350 6450 50  0001 C CNN
 F 3 "~" H 9350 6450 50  0001 C CNN
 	1    9350 6450
 	0    -1   1    0   
@@ -1394,7 +1394,7 @@ Wire Wire Line
 Wire Wire Line
 	10150 2600 10150 3000
 Wire Wire Line
-	9700 2600 10150 2600
+	9700 2600 10050 2600
 Wire Wire Line
 	10250 2900 10250 3000
 Wire Wire Line
@@ -1411,4 +1411,26 @@ Wire Wire Line
 	10650 2900 10650 2600
 Wire Wire Line
 	10650 2600 10600 2600
+$Comp
+L Connector_Generic:Conn_01x02 J37
+U 1 1 5CC327BE
+P 10050 2250
+F 0 "J37" V 9950 2100 50  0000 R CNN
+F 1 "STM32" V 10150 2300 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10050 2250 50  0001 C CNN
+F 3 "~" H 10050 2250 50  0001 C CNN
+	1    10050 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10050 2450 10050 2600
+Connection ~ 10050 2600
+Wire Wire Line
+	10050 2600 10150 2600
+Wire Wire Line
+	10150 2450 10150 2500
+Wire Wire Line
+	10150 2500 10250 2500
+Wire Wire Line
+	10250 2500 10250 2900
 $EndSCHEMATC

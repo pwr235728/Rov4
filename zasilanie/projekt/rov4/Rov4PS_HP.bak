@@ -69,27 +69,27 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5C9B947B
-P 2850 4700
+P 9300 3050
 AR Path="/5C9B947B" Ref="J?"  Part="1" 
 AR Path="/5C93D53B/5C9B947B" Ref="J35"  Part="1" 
-F 0 "J35" H 3050 4600 50  0000 R CNN
-F 1 "Manip_Silnik_1" H 3050 4500 39  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2850 4700 50  0001 C CNN
-F 3 "~" H 2850 4700 50  0001 C CNN
-	1    2850 4700
+F 0 "J35" H 9500 2950 50  0000 R CNN
+F 1 "Manip_Silnik_1" H 9500 2850 39  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9300 3050 50  0001 C CNN
+F 3 "~" H 9300 3050 50  0001 C CNN
+	1    9300 3050
 	0    -1   1    0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5C9C12E4
-P 3350 4700
+P 9800 3050
 AR Path="/5C9C12E4" Ref="J?"  Part="1" 
 AR Path="/5C93D53B/5C9C12E4" Ref="J36"  Part="1" 
-F 0 "J36" H 3550 4600 50  0000 R CNN
-F 1 "Manip_Silnik_2" H 3550 4500 39  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3350 4700 50  0001 C CNN
-F 3 "~" H 3350 4700 50  0001 C CNN
-	1    3350 4700
+F 0 "J36" H 10000 2950 50  0000 R CNN
+F 1 "Manip_Silnik_2" H 10000 2850 39  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9800 3050 50  0001 C CNN
+F 3 "~" H 9800 3050 50  0001 C CNN
+	1    9800 3050
 	0    -1   1    0   
 $EndComp
 Text Notes 2200 3950 0    50   ~ 0
@@ -147,32 +147,6 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10500 2850 50
 F 3 "~" H 10500 2850 50  0001 C CNN
 	1    10500 2850
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5CAF206E
-P 4150 4700
-AR Path="/5CAF206E" Ref="J?"  Part="1" 
-AR Path="/5C93D53B/5CAF206E" Ref="J38"  Part="1" 
-F 0 "J38" V 4050 4550 50  0000 R CNN
-F 1 "Extra" V 4250 4750 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4150 4700 50  0001 C CNN
-F 3 "~" H 4150 4700 50  0001 C CNN
-	1    4150 4700
-	0    -1   1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5CAF2075
-P 3750 4700
-AR Path="/5CAF2075" Ref="J?"  Part="1" 
-AR Path="/5C93D53B/5CAF2075" Ref="J37"  Part="1" 
-F 0 "J37" V 3650 4550 50  0000 R CNN
-F 1 "Extra" V 3850 4750 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3750 4700 50  0001 C CNN
-F 3 "~" H 3750 4700 50  0001 C CNN
-	1    3750 4700
-	0    -1   1    0   
 $EndComp
 $Comp
 L Isolator:SFH617A-1 U2
@@ -794,13 +768,13 @@ Wire Wire Line
 	10300 2550 10150 2550
 Connection ~ 10150 2550
 Wire Wire Line
-	10150 2550 10150 2850
+	10150 2550 10150 2750
 Wire Wire Line
 	10300 2850 10150 2850
 Wire Wire Line
 	10300 2950 10250 2950
 Wire Wire Line
-	10250 2950 10250 2650
+	10250 2950 10250 2800
 Connection ~ 10250 2250
 Connection ~ 10250 2650
 Wire Wire Line
@@ -1524,4 +1498,147 @@ Wire Wire Line
 Wire Wire Line
 	9200 3900 9250 3900
 Connection ~ 9250 3900
+$Comp
+L Connector_Generic:Conn_01x02 J52
+U 1 1 5CC73B50
+P 3150 6200
+F 0 "J52" V 3050 6050 50  0000 R CNN
+F 1 "Extra" V 3250 6250 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3150 6200 50  0001 C CNN
+F 3 "~" H 3150 6200 50  0001 C CNN
+	1    3150 6200
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J51
+U 1 1 5CC73B57
+P 2750 6200
+F 0 "J51" V 2650 6050 50  0000 R CNN
+F 1 "Extra" V 2850 6250 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2750 6200 50  0001 C CNN
+F 3 "~" H 2750 6200 50  0001 C CNN
+	1    2750 6200
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J38
+U 1 1 5CC73B5E
+P 2350 6200
+F 0 "J38" V 2250 6050 50  0000 R CNN
+F 1 "Extra" V 2450 6250 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2350 6200 50  0001 C CNN
+F 3 "~" H 2350 6200 50  0001 C CNN
+	1    2350 6200
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2350 5400 2350 6000
+Wire Wire Line
+	2450 5900 2850 5900
+Wire Wire Line
+	3250 6000 3250 5900
+Wire Wire Line
+	2850 6000 2850 5900
+Connection ~ 2850 5900
+Wire Wire Line
+	2850 5900 3250 5900
+Wire Wire Line
+	2750 6000 2750 5400
+Connection ~ 2750 5400
+Wire Wire Line
+	2750 5400 2350 5400
+Wire Wire Line
+	3150 6000 3150 5400
+Wire Wire Line
+	2750 5400 3150 5400
+Connection ~ 2450 5900
+Wire Wire Line
+	2450 5900 2450 6000
+Connection ~ 2350 5400
+Text GLabel 1150 5400 0    50   Input ~ 0
++BattDigit
+$Comp
+L Connector:TestPoint TP10
+U 1 1 5CC73B74
+P 2350 5350
+F 0 "TP10" H 2409 5471 50  0000 L CNN
+F 1 "EXTRA" H 2409 5378 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2550 5350 50  0001 C CNN
+F 3 "~" H 2550 5350 50  0001 C CNN
+	1    2350 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 5400 2350 5350
+$Comp
+L Device:C_Small C?
+U 1 1 5CC73B7C
+P 2050 5600
+AR Path="/5CC73B7C" Ref="C?"  Part="1" 
+AR Path="/5C93D53B/5CC73B7C" Ref="C30"  Part="1" 
+F 0 "C30" H 2075 5675 50  0000 L CNN
+F 1 "100nF" H 2075 5525 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2050 5600 50  0001 C CNN
+F 3 "~" H 2050 5600 50  0001 C CNN
+	1    2050 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 5500 2050 5400
+Wire Wire Line
+	2050 5700 2050 5900
+Connection ~ 2050 5900
+Wire Wire Line
+	2050 5900 2450 5900
+Wire Wire Line
+	2000 5400 2050 5400
+Wire Wire Line
+	2350 5400 2050 5400
+Connection ~ 2050 5400
+Text GLabel 1150 5900 0    50   Input ~ 0
+-BattDigit
+$Comp
+L lm2596:lm2596 U7
+U 1 1 5CC73B8B
+P 1600 5400
+F 0 "U7" H 1600 5719 50  0000 C CNN
+F 1 "lm2596" H 1600 5626 50  0000 C CNN
+F 2 "lm2596:lm2596-44_8mm_x_23mm" H 1600 5300 50  0001 C CNN
+F 3 "" H 1600 5300 50  0001 C CNN
+	1    1600 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 5650 1600 5900
+Wire Wire Line
+	1600 5900 2050 5900
+Connection ~ 1600 5900
+Wire Wire Line
+	1200 5400 1150 5400
+Wire Wire Line
+	1150 5900 1600 5900
+Wire Wire Line
+	9300 2850 9300 2750
+Wire Wire Line
+	9300 2750 9800 2750
+Connection ~ 10150 2750
+Wire Wire Line
+	10150 2750 10150 2850
+Wire Wire Line
+	9800 2850 9800 2750
+Connection ~ 9800 2750
+Wire Wire Line
+	9800 2750 10150 2750
+Wire Wire Line
+	9400 2850 9400 2800
+Wire Wire Line
+	9400 2800 9900 2800
+Wire Wire Line
+	9900 2800 9900 2850
+Wire Wire Line
+	9900 2800 10250 2800
+Connection ~ 9900 2800
+Connection ~ 10250 2800
+Wire Wire Line
+	10250 2800 10250 2650
 $EndSCHEMATC
