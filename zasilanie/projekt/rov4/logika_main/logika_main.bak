@@ -1394,7 +1394,7 @@ Wire Notes Line
 $Sheet
 S 750  3150 2950 1750
 U 5CFD9CF5
-F0 "sheet5CFD9CF3" 59
+F0 "logika_extra" 59
 F1 "../logika_extra/logika_extra.sch" 59
 $EndSheet
 $EndSCHEMATC
