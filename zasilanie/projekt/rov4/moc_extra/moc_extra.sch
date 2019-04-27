@@ -23,7 +23,7 @@ AR Path="/5CFC48E7" Ref="J?"  Part="1"
 AR Path="/5CE6C451/5CFCF483/5CFC48E7" Ref="J51"  Part="1" 
 F 0 "J51" V 6950 5150 50  0000 R CNN
 F 1 "Extra" V 7150 5350 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7050 5300 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 7050 5300 50  0001 C CNN
 F 3 "~" H 7050 5300 50  0001 C CNN
 	1    7050 5300
 	0    -1   1    0   
@@ -37,7 +37,7 @@ AR Path="/5CFC48EE" Ref="J?"  Part="1"
 AR Path="/5CE6C451/5CFCF483/5CFC48EE" Ref="J50"  Part="1" 
 F 0 "J50" V 6550 5150 50  0000 R CNN
 F 1 "Extra" V 6750 5350 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6650 5300 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 6650 5300 50  0001 C CNN
 F 3 "~" H 6650 5300 50  0001 C CNN
 	1    6650 5300
 	0    -1   1    0   
@@ -51,7 +51,7 @@ AR Path="/5CFC48F5" Ref="J?"  Part="1"
 AR Path="/5CE6C451/5CFCF483/5CFC48F5" Ref="J49"  Part="1" 
 F 0 "J49" V 6150 5150 50  0000 R CNN
 F 1 "Extra" V 6350 5350 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6250 5300 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 6250 5300 50  0001 C CNN
 F 3 "~" H 6250 5300 50  0001 C CNN
 	1    6250 5300
 	0    -1   1    0   
@@ -148,15 +148,45 @@ Wire Notes Line
 Wire Notes Line
 	4250 5500 8100 5500
 Wire Notes Line
-	4250 4100 4250 5500
-Wire Notes Line
 	8100 4100 4250 4100
-Text GLabel 4950 4500 0    50   Input ~ 0
-+BattPow
-Text GLabel 5000 5000 0    50   Input ~ 0
--BattPow
 Wire Wire Line
 	4950 4500 5100 4500
+$Comp
+L Connector_Generic:Conn_02x02_Counter_Clockwise J?
+U 1 1 5D00B42C
+P 4400 4700
+AR Path="/5CE6C451/5D00B42C" Ref="J?"  Part="1" 
+AR Path="/5CE6C451/5CFC4C34/5D00B42C" Ref="J?"  Part="1" 
+AR Path="/5CE6C451/5CFCF483/5D00B42C" Ref="J54"  Part="1" 
+F 0 "J54" V 4403 4780 50  0000 L CNN
+F 1 "HP_IN" V 4496 4780 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 4400 4700 50  0001 C CNN
+F 3 "~" H 4400 4700 50  0001 C CNN
+	1    4400 4700
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	5000 5000 5500 5000
+	4400 4500 4350 4500
+Wire Wire Line
+	4350 4500 4350 4450
+Connection ~ 4350 4500
+Wire Wire Line
+	4350 4500 4300 4500
+Wire Wire Line
+	4300 5000 4350 5000
+Wire Wire Line
+	4350 5000 4350 5050
+Wire Wire Line
+	4350 5050 4850 5050
+Connection ~ 4350 5000
+Wire Wire Line
+	4350 5000 4400 5000
+Wire Wire Line
+	4950 4450 4950 4500
+Wire Wire Line
+	4350 4450 4950 4450
+Wire Wire Line
+	4850 5000 4850 5050
+Wire Wire Line
+	4850 5000 5500 5000
 $EndSCHEMATC

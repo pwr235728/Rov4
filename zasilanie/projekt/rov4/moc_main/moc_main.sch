@@ -61,16 +61,16 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5CFB8A83
-P 2100 1500
+P 2100 1400
 AR Path="/5C93D53B/5CFB8A83" Ref="J?"  Part="1" 
 AR Path="/5CFB8A83" Ref="J?"  Part="1" 
 AR Path="/5CE6C451/5CFB8A83" Ref="J27"  Part="1" 
-F 0 "J27" H 2100 1200 50  0000 C CNN
-F 1 "HP_Enable" H 2100 1300 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2100 1500 50  0001 C CNN
-F 3 "~" H 2100 1500 50  0001 C CNN
-	1    2100 1500
-	-1   0    0    1   
+F 0 "J27" H 2100 1100 50  0000 C CNN
+F 1 "HP_Enable" H 2100 1200 50  0000 C CNN
+F 2 "Connector_Molex:Molex_SPOX_5267-02A_1x02_P2.50mm_Vertical" H 2100 1400 50  0001 C CNN
+F 3 "~" H 2100 1400 50  0001 C CNN
+	1    2100 1400
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2300 1400 2300 1350
@@ -280,7 +280,7 @@ Wire Wire Line
 Text GLabel 4200 1050 3    50   Input ~ 0
 +BattPow
 Wire Wire Line
-	3950 2450 4200 2450
+	3950 2450 4000 2450
 Wire Wire Line
 	4200 2450 4200 2400
 Wire Wire Line
@@ -338,7 +338,7 @@ Wire Wire Line
 Text GLabel 4200 2400 1    50   Input ~ 0
 -BattPow
 Wire Wire Line
-	3750 950  4200 950 
+	3750 950  3950 950 
 $Comp
 L UWE-12_10-Q12P-C:UWE-12_10-Q12PB-C IC?
 U 1 1 5CFB8B1D
@@ -371,7 +371,7 @@ AR Path="/5C93D53B/5CFB8B26" Ref="J?"  Part="1"
 AR Path="/5CE6C451/5CFB8B26" Ref="J36"  Part="1" 
 F 0 "J36" H 6650 4750 50  0000 R CNN
 F 1 "Manip_sil_12v" H 6800 4650 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6450 4850 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 6450 4850 50  0001 C CNN
 F 3 "~" H 6450 4850 50  0001 C CNN
 	1    6450 4850
 	1    0    0    -1  
@@ -385,7 +385,7 @@ AR Path="/5C93D53B/5CFB8B2D" Ref="J?"  Part="1"
 AR Path="/5CE6C451/5CFB8B2D" Ref="J41"  Part="1" 
 F 0 "J41" H 5450 6000 50  0000 R CNN
 F 1 "Manip_Silnik_1" H 5450 5900 39  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5250 6100 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 5250 6100 50  0001 C CNN
 F 3 "~" H 5250 6100 50  0001 C CNN
 	1    5250 6100
 	0    -1   1    0   
@@ -399,7 +399,7 @@ AR Path="/5C93D53B/5CFB8B34" Ref="J?"  Part="1"
 AR Path="/5CE6C451/5CFB8B34" Ref="J42"  Part="1" 
 F 0 "J42" H 5950 6000 50  0000 R CNN
 F 1 "Manip_Silnik_2" H 5950 5900 39  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5750 6100 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 5750 6100 50  0001 C CNN
 F 3 "~" H 5750 6100 50  0001 C CNN
 	1    5750 6100
 	0    -1   1    0   
@@ -413,7 +413,7 @@ AR Path="/5C93D53B/5CFB8B3B" Ref="J?"  Part="1"
 AR Path="/5CE6C451/5CFB8B3B" Ref="J37"  Part="1" 
 F 0 "J37" H 6650 5100 50  0000 R CNN
 F 1 "Torp_EleMagnes" H 6850 5000 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6450 5200 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 6450 5200 50  0001 C CNN
 F 3 "~" H 6450 5200 50  0001 C CNN
 	1    6450 5200
 	1    0    0    -1  
@@ -429,7 +429,7 @@ AR Path="/5C93D53B/5CFB8B43" Ref="J?"  Part="1"
 AR Path="/5CE6C451/5CFB8B43" Ref="J40"  Part="1" 
 F 0 "J40" V 6550 5900 50  0000 R CNN
 F 1 "Extra" V 6650 5950 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6450 5900 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 6450 5900 50  0001 C CNN
 F 3 "~" H 6450 5900 50  0001 C CNN
 	1    6450 5900
 	1    0    0    -1  
@@ -460,16 +460,16 @@ Connection ~ 2300 5900
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5CFB8B56
-P 1100 5850
+P 1100 5750
 AR Path="/5C93D53B/5CFB8B56" Ref="J?"  Part="1" 
 AR Path="/5CFB8B56" Ref="J?"  Part="1" 
 AR Path="/5CE6C451/5CFB8B56" Ref="J39"  Part="1" 
-F 0 "J39" H 1100 5550 50  0000 C CNN
-F 1 "RC_HP_12V" H 1100 5650 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1100 5850 50  0001 C CNN
-F 3 "~" H 1100 5850 50  0001 C CNN
-	1    1100 5850
-	-1   0    0    1   
+F 0 "J39" H 1100 5450 50  0000 C CNN
+F 1 "RC_HP_12V" H 1100 5550 50  0000 C CNN
+F 2 "Connector_Molex:Molex_SPOX_5267-02A_1x02_P2.50mm_Vertical" H 1100 5750 50  0001 C CNN
+F 3 "~" H 1100 5750 50  0001 C CNN
+	1    1100 5750
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	1300 5750 1400 5750
@@ -549,7 +549,7 @@ AR Path="/5C93D53B/5CFB8B81" Ref="J?"  Part="1"
 AR Path="/5CE6C451/5CFB8B81" Ref="J38"  Part="1" 
 F 0 "J38" V 6550 5650 50  0000 R CNN
 F 1 "Extra" V 6650 5650 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6450 5600 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 6450 5600 50  0001 C CNN
 F 3 "~" H 6450 5600 50  0001 C CNN
 	1    6450 5600
 	1    0    0    -1  
@@ -736,120 +736,8 @@ Wire Wire Line
 	6200 5850 6200 5700
 Text GLabel 1150 3600 0    50   Input ~ 0
 +BattPow
-$Comp
-L Connector_Generic:Conn_02x01 J?
-U 1 1 5CFB8BEC
-P 2350 4200
-AR Path="/5C93D53B/5CFB8BEC" Ref="J?"  Part="1" 
-AR Path="/5CFB8BEC" Ref="J?"  Part="1" 
-AR Path="/5CE6C451/5CFB8BEC" Ref="J29"  Part="1" 
-F 0 "J29" H 2400 4100 50  0000 L CNN
-F 1 "ESC2" H 2300 4300 50  0000 L CNN
-F 2 "rozlaczna_gniazdo_5_08:2_pin_5_08mm" H 2350 4200 50  0001 C CNN
-F 3 "~" H 2350 4200 50  0001 C CNN
-	1    2350 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x01 J?
-U 1 1 5CFB8BF3
-P 3100 4200
-AR Path="/5C93D53B/5CFB8BF3" Ref="J?"  Part="1" 
-AR Path="/5CFB8BF3" Ref="J?"  Part="1" 
-AR Path="/5CE6C451/5CFB8BF3" Ref="J30"  Part="1" 
-F 0 "J30" H 3150 4100 50  0000 L CNN
-F 1 "ESC3" H 3050 4300 50  0000 L CNN
-F 2 "rozlaczna_gniazdo_5_08:2_pin_5_08mm" H 3100 4200 50  0001 C CNN
-F 3 "~" H 3100 4200 50  0001 C CNN
-	1    3100 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x01 J?
-U 1 1 5CFB8BFA
-P 3850 4200
-AR Path="/5C93D53B/5CFB8BFA" Ref="J?"  Part="1" 
-AR Path="/5CFB8BFA" Ref="J?"  Part="1" 
-AR Path="/5CE6C451/5CFB8BFA" Ref="J31"  Part="1" 
-F 0 "J31" H 3900 4100 50  0000 L CNN
-F 1 "ESC4" H 3800 4300 50  0000 L CNN
-F 2 "rozlaczna_gniazdo_5_08:2_pin_5_08mm" H 3850 4200 50  0001 C CNN
-F 3 "~" H 3850 4200 50  0001 C CNN
-	1    3850 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x01 J?
-U 1 1 5CFB8C01
-P 4600 4200
-AR Path="/5C93D53B/5CFB8C01" Ref="J?"  Part="1" 
-AR Path="/5CFB8C01" Ref="J?"  Part="1" 
-AR Path="/5CE6C451/5CFB8C01" Ref="J32"  Part="1" 
-F 0 "J32" H 4650 4100 50  0000 L CNN
-F 1 "ESC5" H 4550 4300 50  0000 L CNN
-F 2 "rozlaczna_gniazdo_5_08:2_pin_5_08mm" H 4600 4200 50  0001 C CNN
-F 3 "~" H 4600 4200 50  0001 C CNN
-	1    4600 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x01 J?
-U 1 1 5CFB8C08
-P 5350 4200
-AR Path="/5C93D53B/5CFB8C08" Ref="J?"  Part="1" 
-AR Path="/5CFB8C08" Ref="J?"  Part="1" 
-AR Path="/5CE6C451/5CFB8C08" Ref="J33"  Part="1" 
-F 0 "J33" H 5400 4100 50  0000 L CNN
-F 1 "ESC6" H 5300 4300 50  0000 L CNN
-F 2 "rozlaczna_gniazdo_5_08:2_pin_5_08mm" H 5350 4200 50  0001 C CNN
-F 3 "~" H 5350 4200 50  0001 C CNN
-	1    5350 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x01 J?
-U 1 1 5CFB8C0F
-P 6100 4200
-AR Path="/5C93D53B/5CFB8C0F" Ref="J?"  Part="1" 
-AR Path="/5CFB8C0F" Ref="J?"  Part="1" 
-AR Path="/5CE6C451/5CFB8C0F" Ref="J34"  Part="1" 
-F 0 "J34" H 6150 4100 50  0000 L CNN
-F 1 "ESC7" H 6050 4300 50  0000 L CNN
-F 2 "rozlaczna_gniazdo_5_08:2_pin_5_08mm" H 6100 4200 50  0001 C CNN
-F 3 "~" H 6100 4200 50  0001 C CNN
-	1    6100 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x01 J?
-U 1 1 5CFB8C16
-P 6850 4200
-AR Path="/5C93D53B/5CFB8C16" Ref="J?"  Part="1" 
-AR Path="/5CFB8C16" Ref="J?"  Part="1" 
-AR Path="/5CE6C451/5CFB8C16" Ref="J35"  Part="1" 
-F 0 "J35" H 6900 4100 50  0000 L CNN
-F 1 "ESC8" H 6800 4300 50  0000 L CNN
-F 2 "rozlaczna_gniazdo_5_08:2_pin_5_08mm" H 6850 4200 50  0001 C CNN
-F 3 "~" H 6850 4200 50  0001 C CNN
-	1    6850 4200
-	0    1    1    0   
-$EndComp
 Text Notes 2000 3500 2    59   ~ 0
 Sterowniki silników
-$Comp
-L Connector_Generic:Conn_02x01 J?
-U 1 1 5CFB8C1E
-P 1600 4200
-AR Path="/5C93D53B/5CFB8C1E" Ref="J?"  Part="1" 
-AR Path="/5CFB8C1E" Ref="J?"  Part="1" 
-AR Path="/5CE6C451/5CFB8C1E" Ref="J28"  Part="1" 
-F 0 "J28" V 1600 4300 50  0000 L CNN
-F 1 "ESC1" V 1700 4300 50  0000 L CNN
-F 2 "rozlaczna_gniazdo_5_08:2_pin_5_08mm" H 1600 4200 50  0001 C CNN
-F 3 "~" H 1600 4200 50  0001 C CNN
-	1    1600 4200
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:L L?
 U 1 1 5CFB8C25
@@ -873,7 +761,7 @@ AR Path="/5CFB8C2C" Ref="C?"  Part="1"
 AR Path="/5CE6C451/5CFB8C2C" Ref="C15"  Part="1" 
 F 0 "C15" H 1350 4350 50  0000 L CNN
 F 1 "C" H 1350 4150 50  0000 L CNN
-F 2 "Capacitor_THT:C_Radial_D12.5mm_H25.0mm_P5.00mm" H 1338 4100 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm" H 1338 4100 50  0001 C CNN
 F 3 "~" H 1300 4250 50  0001 C CNN
 	1    1300 4250
 	1    0    0    -1  
@@ -923,7 +811,7 @@ AR Path="/5CFB8C47" Ref="C?"  Part="1"
 AR Path="/5CE6C451/5CFB8C47" Ref="C16"  Part="1" 
 F 0 "C16" H 2100 4350 50  0000 L CNN
 F 1 "C" H 2100 4150 50  0000 L CNN
-F 2 "Capacitor_THT:C_Radial_D12.5mm_H25.0mm_P5.00mm" H 2088 4100 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm" H 2088 4100 50  0001 C CNN
 F 3 "~" H 2050 4250 50  0001 C CNN
 	1    2050 4250
 	1    0    0    -1  
@@ -973,7 +861,7 @@ AR Path="/5CFB8C62" Ref="C?"  Part="1"
 AR Path="/5CE6C451/5CFB8C62" Ref="C17"  Part="1" 
 F 0 "C17" H 2850 4350 50  0000 L CNN
 F 1 "C" H 2850 4150 50  0000 L CNN
-F 2 "Capacitor_THT:C_Radial_D12.5mm_H25.0mm_P5.00mm" H 2838 4100 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm" H 2838 4100 50  0001 C CNN
 F 3 "~" H 2800 4250 50  0001 C CNN
 	1    2800 4250
 	1    0    0    -1  
@@ -1023,7 +911,7 @@ AR Path="/5CFB8C7D" Ref="C?"  Part="1"
 AR Path="/5CE6C451/5CFB8C7D" Ref="C18"  Part="1" 
 F 0 "C18" H 3600 4350 50  0000 L CNN
 F 1 "C" H 3600 4150 50  0000 L CNN
-F 2 "Capacitor_THT:C_Radial_D12.5mm_H25.0mm_P5.00mm" H 3588 4100 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm" H 3588 4100 50  0001 C CNN
 F 3 "~" H 3550 4250 50  0001 C CNN
 	1    3550 4250
 	1    0    0    -1  
@@ -1073,7 +961,7 @@ AR Path="/5CFB8C98" Ref="C?"  Part="1"
 AR Path="/5CE6C451/5CFB8C98" Ref="C19"  Part="1" 
 F 0 "C19" H 4350 4350 50  0000 L CNN
 F 1 "C" H 4350 4150 50  0000 L CNN
-F 2 "Capacitor_THT:C_Radial_D12.5mm_H25.0mm_P5.00mm" H 4338 4100 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm" H 4338 4100 50  0001 C CNN
 F 3 "~" H 4300 4250 50  0001 C CNN
 	1    4300 4250
 	1    0    0    -1  
@@ -1119,7 +1007,7 @@ AR Path="/5CFB8CB1" Ref="C?"  Part="1"
 AR Path="/5CE6C451/5CFB8CB1" Ref="C20"  Part="1" 
 F 0 "C20" H 5100 4350 50  0000 L CNN
 F 1 "C" H 5100 4150 50  0000 L CNN
-F 2 "Capacitor_THT:C_Radial_D12.5mm_H25.0mm_P5.00mm" H 5088 4100 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm" H 5088 4100 50  0001 C CNN
 F 3 "~" H 5050 4250 50  0001 C CNN
 	1    5050 4250
 	1    0    0    -1  
@@ -1169,7 +1057,7 @@ AR Path="/5CFB8CCC" Ref="C?"  Part="1"
 AR Path="/5CE6C451/5CFB8CCC" Ref="C21"  Part="1" 
 F 0 "C21" H 5850 4350 50  0000 L CNN
 F 1 "C" H 5850 4150 50  0000 L CNN
-F 2 "Capacitor_THT:C_Radial_D12.5mm_H25.0mm_P5.00mm" H 5838 4100 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm" H 5838 4100 50  0001 C CNN
 F 3 "~" H 5800 4250 50  0001 C CNN
 	1    5800 4250
 	1    0    0    -1  
@@ -1262,4 +1150,177 @@ U 5CFCF483
 F0 "moc_extra" 59
 F1 "../moc_extra/moc_extra.sch" 59
 $EndSheet
+$Comp
+L Connector_Generic:Conn_02x02_Counter_Clockwise J28
+U 1 1 5CEDF338
+P 1700 4200
+F 0 "J28" V 1703 4279 50  0000 L CNN
+F 1 "ESC1" V 1796 4279 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 1700 4200 50  0001 C CNN
+F 3 "~" H 1700 4200 50  0001 C CNN
+	1    1700 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 4000 1700 4000
+Connection ~ 1600 4000
+Wire Wire Line
+	1600 4500 1700 4500
+Connection ~ 1600 4500
+$Comp
+L Connector_Generic:Conn_02x02_Counter_Clockwise J29
+U 1 1 5CEF1C18
+P 2450 4200
+F 0 "J29" V 2453 4279 50  0000 L CNN
+F 1 "ESC2" V 2546 4279 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 2450 4200 50  0001 C CNN
+F 3 "~" H 2450 4200 50  0001 C CNN
+	1    2450 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Counter_Clockwise J30
+U 1 1 5CEFA80B
+P 3200 4200
+F 0 "J30" V 3203 4279 50  0000 L CNN
+F 1 "ESC3" V 3296 4279 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 3200 4200 50  0001 C CNN
+F 3 "~" H 3200 4200 50  0001 C CNN
+	1    3200 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Counter_Clockwise J31
+U 1 1 5CF0370D
+P 3950 4200
+F 0 "J31" V 3953 4279 50  0000 L CNN
+F 1 "ESC4" V 4046 4279 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 3950 4200 50  0001 C CNN
+F 3 "~" H 3950 4200 50  0001 C CNN
+	1    3950 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Counter_Clockwise J32
+U 1 1 5CF0C554
+P 4700 4200
+F 0 "J32" V 4703 4279 50  0000 L CNN
+F 1 "ESC5" V 4796 4279 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 4700 4200 50  0001 C CNN
+F 3 "~" H 4700 4200 50  0001 C CNN
+	1    4700 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Counter_Clockwise J33
+U 1 1 5CF153AA
+P 5450 4200
+F 0 "J33" V 5453 4279 50  0000 L CNN
+F 1 "ESC6" V 5546 4279 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 5450 4200 50  0001 C CNN
+F 3 "~" H 5450 4200 50  0001 C CNN
+	1    5450 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Counter_Clockwise J34
+U 1 1 5CF1E167
+P 6200 4200
+F 0 "J34" V 6203 4279 50  0000 L CNN
+F 1 "ESC7" V 6296 4279 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 6200 4200 50  0001 C CNN
+F 3 "~" H 6200 4200 50  0001 C CNN
+	1    6200 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Counter_Clockwise J35
+U 1 1 5CF26EF3
+P 6950 4200
+F 0 "J35" V 6953 4279 50  0000 L CNN
+F 1 "ESC8" V 7046 4279 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 6950 4200 50  0001 C CNN
+F 3 "~" H 6950 4200 50  0001 C CNN
+	1    6950 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6950 4000 6850 4000
+Connection ~ 6850 4000
+Wire Wire Line
+	6950 4500 6850 4500
+Connection ~ 6850 4500
+Wire Wire Line
+	6200 4500 6100 4500
+Connection ~ 6100 4500
+Wire Wire Line
+	6200 4000 6100 4000
+Connection ~ 6100 4000
+Wire Wire Line
+	5450 4000 5350 4000
+Connection ~ 5350 4000
+Wire Wire Line
+	5450 4500 5350 4500
+Connection ~ 5350 4500
+Wire Wire Line
+	4700 4500 4600 4500
+Connection ~ 4600 4500
+Wire Wire Line
+	4600 4000 4700 4000
+Connection ~ 4600 4000
+Wire Wire Line
+	3950 4000 3850 4000
+Connection ~ 3850 4000
+Wire Wire Line
+	3950 4500 3850 4500
+Connection ~ 3850 4500
+Wire Wire Line
+	2450 4500 2350 4500
+Connection ~ 2350 4500
+Wire Wire Line
+	2450 4000 2350 4000
+Connection ~ 2350 4000
+Wire Wire Line
+	3200 4000 3100 4000
+Connection ~ 3100 4000
+Wire Wire Line
+	3200 4500 3100 4500
+Connection ~ 3100 4500
+$Comp
+L Connector_Generic:Conn_02x02_Counter_Clockwise J52
+U 1 1 5CFCF07A
+P 4000 1700
+F 0 "J52" V 4003 1780 50  0000 L CNN
+F 1 "HP_OUT" V 4096 1780 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 4000 1700 50  0001 C CNN
+F 3 "~" H 4000 1700 50  0001 C CNN
+	1    4000 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 1500 4000 1450
+Wire Wire Line
+	4000 1450 3950 1450
+Wire Wire Line
+	3900 1450 3900 1500
+Wire Wire Line
+	3950 1450 3950 950 
+Connection ~ 3950 1450
+Wire Wire Line
+	3950 1450 3900 1450
+Connection ~ 3950 950 
+Wire Wire Line
+	3950 950  4200 950 
+Wire Wire Line
+	4000 2000 4000 2050
+Wire Wire Line
+	4000 2050 3900 2050
+Wire Wire Line
+	3900 2050 3900 2000
+Wire Wire Line
+	4000 2050 4000 2450
+Connection ~ 4000 2050
+Connection ~ 4000 2450
+Wire Wire Line
+	4000 2450 4200 2450
 $EndSCHEMATC

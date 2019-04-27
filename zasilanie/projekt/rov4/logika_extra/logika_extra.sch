@@ -22,7 +22,7 @@ AR Path="/5CEA7E4F" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CFD9CF5/5CEA7E4F" Ref="J26"  Part="1" 
 F 0 "J26" V 3550 2150 50  0000 R CNN
 F 1 "Extra" V 3750 2350 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3650 2300 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 3650 2300 50  0001 C CNN
 F 3 "~" H 3650 2300 50  0001 C CNN
 	1    3650 2300
 	0    -1   1    0   
@@ -48,7 +48,7 @@ AR Path="/5CEA7E5D" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CFD9CF5/5CEA7E5D" Ref="J24"  Part="1" 
 F 0 "J24" V 2750 2150 50  0000 R CNN
 F 1 "Extra" V 2950 2350 50  0000 R CNN
-F 2 "Connector_Molex:Molex_SPOX_5267-02A_1x02_P2.50mm_Vertical" H 2850 2300 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 2850 2300 50  0001 C CNN
 F 3 "~" H 2850 2300 50  0001 C CNN
 	1    2850 2300
 	0    -1   1    0   
@@ -77,8 +77,6 @@ Connection ~ 2950 2000
 Wire Wire Line
 	2950 2000 2950 2100
 Connection ~ 2850 1500
-Text GLabel 1650 1500 0    50   Input ~ 0
-+BattDigit
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5CEA7E73
@@ -120,8 +118,6 @@ Wire Wire Line
 Wire Wire Line
 	2850 1500 2550 1500
 Connection ~ 2550 1500
-Text GLabel 1650 2000 0    50   Input ~ 0
--BattDigit
 $Comp
 L lm2596:lm2596 U?
 U 1 1 5CEA7E8A
@@ -140,10 +136,6 @@ Wire Wire Line
 Wire Wire Line
 	2100 2000 2550 2000
 Connection ~ 2100 2000
-Wire Wire Line
-	1700 1500 1650 1500
-Wire Wire Line
-	1650 2000 2100 2000
 Wire Notes Line
 	4300 1100 4300 2750
 Wire Notes Line
@@ -154,4 +146,31 @@ Wire Notes Line
 	900  1100 4300 1100
 Text Notes 3200 1250 0    59   ~ 0
 TO na osobnym pcb
+$Comp
+L Connector_Generic:Conn_02x02_Counter_Clockwise J?
+U 1 1 5D0534B5
+P 1450 1700
+AR Path="/5CE6C451/5D0534B5" Ref="J?"  Part="1" 
+AR Path="/5CE6C451/5CFC4C34/5D0534B5" Ref="J?"  Part="1" 
+AR Path="/5CE6C103/5D0534B5" Ref="J?"  Part="1" 
+AR Path="/5CE6C103/5CFD9CF5/5D0534B5" Ref="J56"  Part="1" 
+F 0 "J56" V 1453 1780 50  0000 L CNN
+F 1 "LP_IN" V 1546 1780 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 1450 1700 50  0001 C CNN
+F 3 "~" H 1450 1700 50  0001 C CNN
+	1    1450 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1350 2000 1450 2000
+Connection ~ 1450 2000
+Wire Wire Line
+	1450 2000 2100 2000
+Wire Wire Line
+	1400 1500 1450 1500
+Connection ~ 1450 1500
+Wire Wire Line
+	1450 1500 1700 1500
+Wire Wire Line
+	1350 1500 1450 1500
 $EndSCHEMATC

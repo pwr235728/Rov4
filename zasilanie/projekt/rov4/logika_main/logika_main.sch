@@ -20,7 +20,7 @@ Text Label 850  2200 3    59   ~ 0
 -Batt
 Text Notes 1000 900  0    51   ~ 0
 Przekaźnik do załączania zasilania zewnętrznym \nprzełącznikiem (kontaktronem) z zabezpieczeniem przed \nodwrotną polaryzacją
-Text GLabel 3550 1350 3    50   Input ~ 0
+Text GLabel 3650 1350 3    50   Input ~ 0
 +BattDigit
 Wire Notes Line
 	550  550  3750 550 
@@ -53,23 +53,23 @@ Wire Wire Line
 Wire Notes Line
 	550  2850 550  550 
 $Comp
-L Connector_Generic:Conn_01x02 J1
+L Connector_Generic:Conn_01x02 J2
 U 1 1 5CE84D29
 P 2300 1600
-F 0 "J1" H 2300 1400 50  0000 C CNN
+F 0 "J2" H 2300 1400 50  0000 C CNN
 F 1 "Reed switch" H 2300 1700 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2300 1600 50  0001 C CNN
+F 2 "Connector_Molex:Molex_SPOX_5267-02A_1x02_P2.50mm_Vertical" H 2300 1600 50  0001 C CNN
 F 3 "~" H 2300 1600 50  0001 C CNN
 	1    2300 1600
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x01 J2
+L Connector_Generic:Conn_02x01 J1
 U 1 1 5CE84D30
 P 850 1900
-F 0 "J2" H 850 2000 50  0000 R CNN
+F 0 "J1" H 850 2000 50  0000 R CNN
 F 1 "Battery digital" H 1150 1800 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x01_P2.54mm_Vertical" H 850 1900 50  0001 C CNN
+F 2 "power_connectors:XT60UPB-M" H 850 1900 50  0001 C CNN
 F 3 "~" H 850 1900 50  0001 C CNN
 	1    850  1900
 	0    -1   1    0   
@@ -188,9 +188,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 2150 1750 2100
 Wire Wire Line
-	3150 1300 3550 1300
-Wire Wire Line
-	3350 2500 3550 2500
+	3150 1300 3350 1300
 Wire Wire Line
 	2800 2500 2950 2500
 Wire Wire Line
@@ -225,8 +223,6 @@ Wire Wire Line
 	850  2500 1250 2500
 Text GLabel 3550 2450 1    50   Input ~ 0
 -BattDigit
-Wire Wire Line
-	3550 1350 3550 1300
 $Comp
 L UWE-12_10-Q12P-C:UWE-12_10-Q12PB-C IC?
 U 1 1 5CE94A52
@@ -286,7 +282,7 @@ AR Path="/5CE94A6D" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94A6D" Ref="J17"  Part="1" 
 F 0 "J17" V 8400 4750 50  0000 R CNN
 F 1 "Xavier" V 8600 4950 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8500 4900 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 8500 4900 50  0001 C CNN
 F 3 "~" H 8500 4900 50  0001 C CNN
 	1    8500 4900
 	0    -1   1    0   
@@ -299,7 +295,7 @@ AR Path="/5CE94A74" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94A74" Ref="J18"  Part="1" 
 F 0 "J18" V 8750 4750 50  0000 R CNN
 F 1 "Kamera 1" V 8950 5000 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8850 4900 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 8850 4900 50  0001 C CNN
 F 3 "~" H 8850 4900 50  0001 C CNN
 	1    8850 4900
 	0    -1   1    0   
@@ -312,7 +308,7 @@ AR Path="/5CE94A7B" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94A7B" Ref="J19"  Part="1" 
 F 0 "J19" V 9200 4750 50  0000 R CNN
 F 1 "Kamera 2" V 9400 5000 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9300 4900 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9300 4900 50  0001 C CNN
 F 3 "~" H 9300 4900 50  0001 C CNN
 	1    9300 4900
 	0    -1   1    0   
@@ -325,7 +321,7 @@ AR Path="/5CE94A82" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94A82" Ref="J20"  Part="1" 
 F 0 "J20" V 9600 4750 50  0000 R CNN
 F 1 "Extra" V 9800 4950 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9700 4900 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9700 4900 50  0001 C CNN
 F 3 "~" H 9700 4900 50  0001 C CNN
 	1    9700 4900
 	0    -1   1    0   
@@ -338,7 +334,7 @@ AR Path="/5CE94A89" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94A89" Ref="J21"  Part="1" 
 F 0 "J21" V 9950 4750 50  0000 R CNN
 F 1 "Extra" V 10150 4950 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10050 4900 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 10050 4900 50  0001 C CNN
 F 3 "~" H 10050 4900 50  0001 C CNN
 	1    10050 4900
 	0    -1   1    0   
@@ -359,7 +355,7 @@ AR Path="/5CE94A94" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94A94" Ref="J9"  Part="1" 
 F 0 "J9" V 8150 3400 50  0000 R CNN
 F 1 "RPi" V 8250 3400 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8150 3250 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 8150 3250 50  0001 C CNN
 F 3 "~" H 8150 3250 50  0001 C CNN
 	1    8150 3250
 	0    -1   1    0   
@@ -370,9 +366,9 @@ U 1 1 5CE94A9B
 P 8650 3250
 AR Path="/5CE94A9B" Ref="J?"  Part="1" 
 AR Path="/5CE6C103/5CE94A9B" Ref="J10"  Part="1" 
-F 0 "J10" V 8650 3400 50  0000 R CNN
+F 0 "J10" V 8650 3450 50  0000 R CNN
 F 1 "Router" V 8750 3350 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8650 3250 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 8650 3250 50  0001 C CNN
 F 3 "~" H 8650 3250 50  0001 C CNN
 	1    8650 3250
 	0    -1   1    0   
@@ -385,7 +381,7 @@ AR Path="/5CE94AA2" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94AA2" Ref="J11"  Part="1" 
 F 0 "J11" V 9150 3450 50  0000 R CNN
 F 1 "Switch" V 9250 3350 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9150 3250 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9150 3250 50  0001 C CNN
 F 3 "~" H 9150 3250 50  0001 C CNN
 	1    9150 3250
 	0    -1   1    0   
@@ -398,7 +394,7 @@ AR Path="/5CE94AA9" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94AA9" Ref="J7"  Part="1" 
 F 0 "J7" V 9450 2200 50  0000 R CNN
 F 1 "Extra" V 9650 2400 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9550 2350 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9550 2350 50  0001 C CNN
 F 3 "~" H 9550 2350 50  0001 C CNN
 	1    9550 2350
 	0    -1   -1   0   
@@ -411,7 +407,7 @@ AR Path="/5CE94AB0" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94AB0" Ref="J6"  Part="1" 
 F 0 "J6" V 9050 2200 50  0000 R CNN
 F 1 "Extra" V 9250 2400 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9150 2350 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9150 2350 50  0001 C CNN
 F 3 "~" H 9150 2350 50  0001 C CNN
 	1    9150 2350
 	0    -1   -1   0   
@@ -465,7 +461,7 @@ AR Path="/5CE94AD0" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94AD0" Ref="J5"  Part="1" 
 F 0 "J5" V 8550 2200 50  0000 R CNN
 F 1 "Manip_SterSil1" V 8750 2550 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8650 2350 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 8650 2350 50  0001 C CNN
 F 3 "~" H 8650 2350 50  0001 C CNN
 	1    8650 2350
 	0    -1   -1   0   
@@ -478,7 +474,7 @@ AR Path="/5CE94AD7" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94AD7" Ref="J4"  Part="1" 
 F 0 "J4" V 8100 2550 50  0000 R CNN
 F 1 "Manip_SterSil2" V 8250 2700 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8150 2350 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 8150 2350 50  0001 C CNN
 F 3 "~" H 8150 2350 50  0001 C CNN
 	1    8150 2350
 	0    -1   -1   0   
@@ -546,8 +542,8 @@ L Connector_Generic:Conn_01x01 J?
 U 1 1 5CE94B00
 P 4350 3200
 AR Path="/5CE94B00" Ref="J?"  Part="1" 
-AR Path="/5CE6C103/5CE94B00" Ref="J8"  Part="1" 
-F 0 "J8" H 4350 3000 50  0000 C CNN
+AR Path="/5CE6C103/5CE94B00" Ref="J3"  Part="1" 
+F 0 "J3" H 4350 3000 50  0000 C CNN
 F 1 "RC_D_5V" H 4350 3100 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 4350 3200 50  0001 C CNN
 F 3 "~" H 4350 3200 50  0001 C CNN
@@ -940,7 +936,7 @@ AR Path="/5CE94BD7" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94BD7" Ref="J14"  Part="1" 
 F 0 "J14" V 8400 3650 50  0000 R CNN
 F 1 "Enko_absolutny_1" V 8650 4250 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8500 3800 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 8500 3800 50  0001 C CNN
 F 3 "~" H 8500 3800 50  0001 C CNN
 	1    8500 3800
 	0    -1   -1   0   
@@ -953,7 +949,7 @@ AR Path="/5CE94BDE" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94BDE" Ref="J15"  Part="1" 
 F 0 "J15" V 8750 3650 50  0000 R CNN
 F 1 "Enko_absolutny_2" V 8950 3800 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8850 3800 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 8850 3800 50  0001 C CNN
 F 3 "~" H 8850 3800 50  0001 C CNN
 	1    8850 3800
 	0    -1   -1   0   
@@ -974,7 +970,7 @@ AR Path="/5CE94BE9" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94BE9" Ref="J12"  Part="1" 
 F 0 "J12" V 9450 3100 50  0000 R CNN
 F 1 "Enko_inkrementalny" H 9700 3350 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9550 3250 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9550 3250 50  0001 C CNN
 F 3 "~" H 9550 3250 50  0001 C CNN
 	1    9550 3250
 	0    -1   1    0   
@@ -989,7 +985,7 @@ AR Path="/5CE94BF1" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94BF1" Ref="J13"  Part="1" 
 F 0 "J13" V 10000 3400 50  0000 R CNN
 F 1 "Torpedy, hall, laser" H 10550 3050 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10100 3250 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 10100 3250 50  0001 C CNN
 F 3 "~" H 10100 3250 50  0001 C CNN
 	1    10100 3250
 	0    1    1    0   
@@ -1026,10 +1022,10 @@ L Connector_Generic:Conn_01x02 J?
 U 1 1 5CE94C07
 P 9900 2300
 AR Path="/5CE94C07" Ref="J?"  Part="1" 
-AR Path="/5CE6C103/5CE94C07" Ref="J3"  Part="1" 
-F 0 "J3" V 9800 2150 50  0000 R CNN
+AR Path="/5CE6C103/5CE94C07" Ref="J8"  Part="1" 
+F 0 "J8" V 9800 2150 50  0000 R CNN
 F 1 "STM32" V 10000 2350 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9900 2300 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9900 2300 50  0001 C CNN
 F 3 "~" H 9900 2300 50  0001 C CNN
 	1    9900 2300
 	0    -1   -1   0   
@@ -1059,28 +1055,6 @@ F 4 "DCW12A-15" H 3500 6550 50  0001 L CNN "Manufacturer_Part_Number"
 	1    3450 6300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4100 6500 4200 6500
-Wire Wire Line
-	4200 6300 4100 6300
-Wire Wire Line
-	4100 6650 4400 6650
-Wire Wire Line
-	4100 6150 4400 6150
-$Comp
-L Connector_Generic:Conn_01x03 J?
-U 1 1 5CE9BD1F
-P 5450 6400
-AR Path="/5CE9BD1F" Ref="J?"  Part="1" 
-AR Path="/5CE6C103/5CE9BD1F" Ref="J22"  Part="1" 
-F 0 "J22" H 5530 6442 50  0000 L CNN
-F 1 "Hydrofony" H 5530 6351 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5450 6400 50  0001 C CNN
-F 3 "~" H 5450 6400 50  0001 C CNN
-	1    5450 6400
-	1    0    0    -1  
-$EndComp
-Connection ~ 4200 6500
 Text Notes 2600 6925 0    47   ~ 0
 RC:\nON >4 V | OPEN\nOFF <1V | GND
 Text GLabel 2000 6150 0    50   Input ~ 0
@@ -1092,9 +1066,9 @@ Wire Wire Line
 Connection ~ 2750 6150
 Wire Wire Line
 	2750 6150 2800 6150
-Text Notes 4250 6125 0    59   ~ 0
+Text Notes 4450 6125 0    59   ~ 0
 +15V
-Text Notes 4275 6750 0    59   ~ 0
+Text Notes 4475 6750 0    59   ~ 0
 -15V
 $Comp
 L Connector_Generic:Conn_01x01 J?
@@ -1119,8 +1093,6 @@ Wire Wire Line
 	2750 6450 2500 6450
 Connection ~ 2750 6450
 Wire Wire Line
-	4200 6500 4200 6800
-Wire Wire Line
 	2500 6450 2500 6400
 Connection ~ 2500 6450
 Wire Wire Line
@@ -1130,108 +1102,90 @@ Wire Wire Line
 $Comp
 L Device:R R?
 U 1 1 5CE9BD40
-P 5850 6150
+P 5700 6150
 AR Path="/5CE9BD40" Ref="R?"  Part="1" 
 AR Path="/5CE6C103/5CE9BD40" Ref="R6"  Part="1" 
-F 0 "R6" V 5640 6150 50  0000 C CNN
-F 1 "2k4" V 5733 6150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5780 6150 50  0001 C CNN
-F 3 "~" H 5850 6150 50  0001 C CNN
-	1    5850 6150
+F 0 "R6" V 5490 6150 50  0000 C CNN
+F 1 "2k4" V 5583 6150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5630 6150 50  0001 C CNN
+F 3 "~" H 5700 6150 50  0001 C CNN
+	1    5700 6150
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:LED D?
 U 1 1 5CE9BD47
-P 6250 6150
+P 6100 6150
 AR Path="/5CE9BD47" Ref="D?"  Part="1" 
 AR Path="/5CE6C103/5CE9BD47" Ref="D7"  Part="1" 
-F 0 "D7" H 6242 5891 50  0000 C CNN
-F 1 "LED_B" H 6242 5984 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 6250 6150 50  0001 C CNN
-F 3 "~" H 6250 6150 50  0001 C CNN
-	1    6250 6150
+F 0 "D7" H 6092 5891 50  0000 C CNN
+F 1 "LED_B" H 6092 5984 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 6100 6150 50  0001 C CNN
+F 3 "~" H 6100 6150 50  0001 C CNN
+	1    6100 6150
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6000 6150 6100 6150
+	5850 6150 5950 6150
 $Comp
 L Device:R R?
 U 1 1 5CE9BD4F
-P 5900 6650
+P 5750 6650
 AR Path="/5CE9BD4F" Ref="R?"  Part="1" 
 AR Path="/5CE6C103/5CE9BD4F" Ref="R7"  Part="1" 
-F 0 "R7" V 5690 6650 50  0000 C CNN
-F 1 "2k4" V 5783 6650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5830 6650 50  0001 C CNN
-F 3 "~" H 5900 6650 50  0001 C CNN
-	1    5900 6650
+F 0 "R7" V 5540 6650 50  0000 C CNN
+F 1 "2k4" V 5633 6650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5680 6650 50  0001 C CNN
+F 3 "~" H 5750 6650 50  0001 C CNN
+	1    5750 6650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED D?
 U 1 1 5CE9BD56
-P 6300 6650
+P 6150 6650
 AR Path="/5CE9BD56" Ref="D?"  Part="1" 
 AR Path="/5CE6C103/5CE9BD56" Ref="D8"  Part="1" 
-F 0 "D8" H 6292 6391 50  0000 C CNN
-F 1 "LED_B" H 6292 6484 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 6300 6650 50  0001 C CNN
-F 3 "~" H 6300 6650 50  0001 C CNN
-	1    6300 6650
+F 0 "D8" H 6142 6391 50  0000 C CNN
+F 1 "LED_B" H 6142 6484 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 6150 6650 50  0001 C CNN
+F 3 "~" H 6150 6650 50  0001 C CNN
+	1    6150 6650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6150 6650 6050 6650
+	6000 6650 5900 6650
 Wire Wire Line
-	6450 6650 6500 6650
+	6300 6650 6350 6650
 Wire Wire Line
-	6400 6150 6500 6150
-Wire Wire Line
-	5200 6650 5200 6500
-Wire Wire Line
-	5200 6650 5750 6650
-Wire Wire Line
-	5200 6500 5250 6500
-Wire Wire Line
-	5200 6300 5200 6150
-Wire Wire Line
-	5200 6150 5700 6150
-Wire Wire Line
-	5200 6300 5250 6300
+	6250 6150 6350 6150
 Connection ~ 2500 6150
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5CE9BD67
-P 5200 6050
+P 4300 6000
 AR Path="/5CE9BD67" Ref="TP?"  Part="1" 
 AR Path="/5CE6C103/5CE9BD67" Ref="TP3"  Part="1" 
-F 0 "TP3" H 5259 6171 50  0000 L CNN
-F 1 "D_5V" H 5259 6078 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5400 6050 50  0001 C CNN
-F 3 "~" H 5400 6050 50  0001 C CNN
-	1    5200 6050
+F 0 "TP3" H 4359 6121 50  0000 L CNN
+F 1 "D_5V" H 4359 6028 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 4500 6000 50  0001 C CNN
+F 3 "~" H 4500 6000 50  0001 C CNN
+	1    4300 6000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5200 6150 5200 6050
-Connection ~ 5200 6150
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5CE9BD70
-P 5200 6750
+P 4300 6800
 AR Path="/5CE9BD70" Ref="TP?"  Part="1" 
 AR Path="/5CE6C103/5CE9BD70" Ref="TP4"  Part="1" 
-F 0 "TP4" H 5141 6776 50  0000 R CNN
-F 1 "D_-5V" H 5141 6869 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5400 6750 50  0001 C CNN
-F 3 "~" H 5400 6750 50  0001 C CNN
-	1    5200 6750
+F 0 "TP4" H 4241 6826 50  0000 R CNN
+F 1 "D_-5V" H 4241 6919 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 4500 6800 50  0001 C CNN
+F 3 "~" H 4500 6800 50  0001 C CNN
+	1    4300 6800
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5200 6650 5200 6750
-Connection ~ 5200 6650
 $Comp
 L Device:Q_NPN_BEC Q?
 U 1 1 5CE9BD79
@@ -1251,91 +1205,58 @@ Wire Wire Line
 	2200 6650 2200 6700
 Wire Wire Line
 	1800 6900 1900 6900
-Wire Wire Line
-	4200 6300 4200 6400
 $Comp
 L Device:C_Small C?
 U 1 1 5CE9BD84
-P 4400 6250
+P 4300 6250
 AR Path="/5CE9BD84" Ref="C?"  Part="1" 
 AR Path="/5CE6C103/5CE9BD84" Ref="C9"  Part="1" 
-F 0 "C9" H 4425 6325 50  0000 L CNN
-F 1 "100nF" H 4425 6175 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4400 6250 50  0001 C CNN
-F 3 "~" H 4400 6250 50  0001 C CNN
-	1    4400 6250
+F 0 "C9" H 4325 6325 50  0000 L CNN
+F 1 "100nF" H 4325 6175 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4300 6250 50  0001 C CNN
+F 3 "~" H 4300 6250 50  0001 C CNN
+	1    4300 6250
 	1    0    0    -1  
 $EndComp
-Connection ~ 4400 6150
 $Comp
 L Device:C_Small C?
 U 1 1 5CE9BD8C
-P 4400 6550
+P 4300 6550
 AR Path="/5CE9BD8C" Ref="C?"  Part="1" 
 AR Path="/5CE6C103/5CE9BD8C" Ref="C12"  Part="1" 
-F 0 "C12" H 4425 6625 50  0000 L CNN
-F 1 "100nF" H 4425 6475 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4400 6550 50  0001 C CNN
-F 3 "~" H 4400 6550 50  0001 C CNN
-	1    4400 6550
+F 0 "C12" H 4325 6625 50  0000 L CNN
+F 1 "100nF" H 4325 6475 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4300 6550 50  0001 C CNN
+F 3 "~" H 4300 6550 50  0001 C CNN
+	1    4300 6550
 	1    0    0    -1  
 $EndComp
-Connection ~ 4400 6650
 $Comp
 L Device:CP_Small C?
 U 1 1 5CE9BD94
-P 4700 6250
+P 4600 6250
 AR Path="/5CE9BD94" Ref="C?"  Part="1" 
 AR Path="/5CE6C103/5CE9BD94" Ref="C10"  Part="1" 
-F 0 "C10" H 4789 6297 50  0000 L CNN
-F 1 "100uF" H 4789 6204 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 4700 6250 50  0001 C CNN
-F 3 "~" H 4700 6250 50  0001 C CNN
-	1    4700 6250
+F 0 "C10" H 4689 6297 50  0000 L CNN
+F 1 "100uF" H 4689 6204 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 4600 6250 50  0001 C CNN
+F 3 "~" H 4600 6250 50  0001 C CNN
+	1    4600 6250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:CP_Small C?
 U 1 1 5CE9BD9B
-P 4700 6550
+P 4600 6550
 AR Path="/5CE9BD9B" Ref="C?"  Part="1" 
 AR Path="/5CE6C103/5CE9BD9B" Ref="C13"  Part="1" 
-F 0 "C13" H 4789 6597 50  0000 L CNN
-F 1 "100uF" H 4789 6504 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 4700 6550 50  0001 C CNN
-F 3 "~" H 4700 6550 50  0001 C CNN
-	1    4700 6550
+F 0 "C13" H 4689 6597 50  0000 L CNN
+F 1 "100uF" H 4689 6504 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 4600 6550 50  0001 C CNN
+F 3 "~" H 4600 6550 50  0001 C CNN
+	1    4600 6550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4400 6150 4700 6150
-Connection ~ 4700 6150
-Wire Wire Line
-	4700 6350 4700 6400
-Wire Wire Line
-	4400 6350 4400 6400
-Connection ~ 4400 6400
-Wire Wire Line
-	4400 6400 4400 6450
-Wire Wire Line
-	4400 6400 4700 6400
-Connection ~ 4700 6400
-Wire Wire Line
-	4700 6400 4700 6450
-Wire Wire Line
-	4700 6400 5250 6400
-Wire Wire Line
-	4400 6650 4700 6650
-Connection ~ 4700 6650
-Wire Wire Line
-	4700 6150 5200 6150
-Wire Wire Line
-	4700 6650 5200 6650
-Wire Wire Line
-	4400 6400 4200 6400
-Connection ~ 4200 6400
-Wire Wire Line
-	4200 6400 4200 6500
 $Comp
 L Device:CP_Small C?
 U 1 1 5CE9BDB3
@@ -1362,19 +1283,19 @@ Wire Wire Line
 Connection ~ 2500 7200
 Wire Wire Line
 	2500 7200 2600 7200
-Text GLabel 4000 6800 0    50   Input ~ 0
+Text GLabel 3950 6800 0    50   Input ~ 0
 -BattDigit
 Wire Wire Line
-	4000 6800 4200 6800
-Text GLabel 6400 6400 0    50   Input ~ 0
+	3950 6800 4150 6800
+Text GLabel 6250 6400 0    50   Input ~ 0
 -BattDigit
 Wire Wire Line
-	6500 6150 6500 6400
+	6350 6150 6350 6400
 Wire Wire Line
-	6400 6400 6500 6400
-Connection ~ 6500 6400
+	6250 6400 6350 6400
+Connection ~ 6350 6400
 Wire Wire Line
-	6500 6400 6500 6650
+	6350 6400 6350 6650
 Text Notes 5700 1850 0    59   ~ 0
 5V:\n> in max 8 A,\n> fuse: 10A slow blown,\n> out max: 12A\n\n-Router: 2A\n-Switch: 2A\n-RPi: 2A\n\n-AHRS, Bar02 (depth), distance?: <1A\n-Torpedy: hall, laser: <1A\n\n= 8A\n
 Text Notes 7650 1250 0    59   ~ 0
@@ -1397,4 +1318,114 @@ U 5CFD9CF5
 F0 "logika_extra" 59
 F1 "../logika_extra/logika_extra.sch" 59
 $EndSheet
+Wire Wire Line
+	4100 6300 4150 6300
+Wire Wire Line
+	4150 6300 4150 6400
+Wire Wire Line
+	4150 6500 4100 6500
+Wire Wire Line
+	4150 6400 4300 6400
+Connection ~ 4150 6400
+Wire Wire Line
+	4150 6400 4150 6500
+Wire Wire Line
+	4600 6450 4600 6400
+Connection ~ 4600 6400
+Wire Wire Line
+	4600 6400 4950 6400
+Wire Wire Line
+	4600 6350 4600 6400
+Wire Wire Line
+	4300 6350 4300 6400
+Connection ~ 4300 6400
+Wire Wire Line
+	4300 6400 4600 6400
+Wire Wire Line
+	4300 6450 4300 6400
+Wire Wire Line
+	4100 6650 4300 6650
+Connection ~ 4300 6650
+Wire Wire Line
+	4300 6650 4600 6650
+Connection ~ 4600 6650
+Connection ~ 4300 6150
+Wire Wire Line
+	4300 6150 4100 6150
+Connection ~ 4600 6150
+Wire Wire Line
+	4600 6150 4300 6150
+Wire Wire Line
+	4150 6800 4150 6500
+Connection ~ 4150 6500
+Wire Wire Line
+	4300 6150 4300 6000
+Wire Wire Line
+	4300 6800 4300 6650
+$Comp
+L Connector_Generic:Conn_02x02_Counter_Clockwise J22
+U 1 1 5CE9776A
+P 5250 6350
+F 0 "J22" H 5300 6150 50  0000 C CNN
+F 1 "hydrofony" H 5300 6477 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 5250 6350 50  0001 C CNN
+F 3 "~" H 5250 6350 50  0001 C CNN
+	1    5250 6350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 6150 5450 6150
+Wire Wire Line
+	4600 6650 5450 6650
+Wire Wire Line
+	4950 6400 4950 6350
+Wire Wire Line
+	4950 6450 4950 6400
+Connection ~ 4950 6400
+Wire Wire Line
+	5450 6350 5450 6150
+Connection ~ 5450 6150
+Wire Wire Line
+	5450 6150 5550 6150
+Wire Wire Line
+	5450 6450 5450 6650
+Connection ~ 5450 6650
+Wire Wire Line
+	5450 6650 5600 6650
+$Comp
+L Connector_Generic:Conn_02x02_Counter_Clockwise J?
+U 1 1 5D00EF41
+P 3400 1800
+AR Path="/5CE6C451/5D00EF41" Ref="J?"  Part="1" 
+AR Path="/5CE6C451/5CFC4C34/5D00EF41" Ref="J?"  Part="1" 
+AR Path="/5CE6C103/5D00EF41" Ref="J55"  Part="1" 
+F 0 "J55" V 3403 1880 50  0000 L CNN
+F 1 "LP_OUT" V 3496 1880 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 3400 1800 50  0001 C CNN
+F 3 "~" H 3400 1800 50  0001 C CNN
+	1    3400 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3300 1600 3350 1600
+Wire Wire Line
+	3350 1600 3350 1300
+Connection ~ 3350 1600
+Wire Wire Line
+	3350 1600 3400 1600
+Connection ~ 3350 1300
+Wire Wire Line
+	3300 2100 3400 2100
+Wire Wire Line
+	3400 2100 3400 2500
+Wire Wire Line
+	3350 2500 3400 2500
+Connection ~ 3400 2100
+Connection ~ 3400 2500
+Wire Wire Line
+	3400 2500 3550 2500
+Wire Wire Line
+	3650 1350 3650 1300
+Wire Wire Line
+	3350 1300 3650 1300
 $EndSCHEMATC
