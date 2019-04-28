@@ -461,7 +461,7 @@ AR Path="/5CE94AD0" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94AD0" Ref="J5"  Part="1" 
 F 0 "J5" V 8550 2200 50  0000 R CNN
 F 1 "Manip_SterSil1" V 8750 2550 50  0000 R CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 8650 2350 50  0001 C CNN
+F 2 "molex_3d_2pin:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 8650 2350 50  0001 C CNN
 F 3 "~" H 8650 2350 50  0001 C CNN
 	1    8650 2350
 	0    -1   -1   0   
@@ -474,7 +474,7 @@ AR Path="/5CE94AD7" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94AD7" Ref="J4"  Part="1" 
 F 0 "J4" V 8100 2550 50  0000 R CNN
 F 1 "Manip_SterSil2" V 8250 2700 50  0000 R CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 8150 2350 50  0001 C CNN
+F 2 "molex_3d_2pin:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 8150 2350 50  0001 C CNN
 F 3 "~" H 8150 2350 50  0001 C CNN
 	1    8150 2350
 	0    -1   -1   0   
