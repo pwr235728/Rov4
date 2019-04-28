@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Kurat\Documents\git_repos\Rov4\zasilanie\projekt\rov4\rov4.sch)
-    (date "28.04.2019 00:23:33")
+    (date "28.04.2019 20:12:28")
     (tool "Eeschema (5.0.2)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
