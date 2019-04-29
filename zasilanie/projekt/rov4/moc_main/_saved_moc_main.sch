@@ -367,7 +367,7 @@ AR Path="/5C93D53B/5CFB8B26" Ref="J?"  Part="1"
 AR Path="/5CE6C451/5CFB8B26" Ref="J36"  Part="1" 
 F 0 "J36" H 6650 4750 50  0000 R CNN
 F 1 "Manip_sil_12v" H 6800 4650 50  0000 R CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 6450 4850 50  0001 C CNN
+F 2 "molex_3d_2pin:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 6450 4850 50  0001 C CNN
 F 3 "~" H 6450 4850 50  0001 C CNN
 	1    6450 4850
 	1    0    0    -1  
@@ -381,7 +381,7 @@ AR Path="/5C93D53B/5CFB8B2D" Ref="J?"  Part="1"
 AR Path="/5CE6C451/5CFB8B2D" Ref="J41"  Part="1" 
 F 0 "J41" H 5450 6000 50  0000 R CNN
 F 1 "Manip_Silnik_1" H 5450 5900 39  0000 R CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 5250 6100 50  0001 C CNN
+F 2 "molex_3d_2pin:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 5250 6100 50  0001 C CNN
 F 3 "~" H 5250 6100 50  0001 C CNN
 	1    5250 6100
 	0    -1   1    0   
@@ -395,7 +395,7 @@ AR Path="/5C93D53B/5CFB8B34" Ref="J?"  Part="1"
 AR Path="/5CE6C451/5CFB8B34" Ref="J42"  Part="1" 
 F 0 "J42" H 5950 6000 50  0000 R CNN
 F 1 "Manip_Silnik_2" H 5950 5900 39  0000 R CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 5750 6100 50  0001 C CNN
+F 2 "molex_3d_2pin:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 5750 6100 50  0001 C CNN
 F 3 "~" H 5750 6100 50  0001 C CNN
 	1    5750 6100
 	0    -1   1    0   
@@ -409,7 +409,7 @@ AR Path="/5C93D53B/5CFB8B3B" Ref="J?"  Part="1"
 AR Path="/5CE6C451/5CFB8B3B" Ref="J37"  Part="1" 
 F 0 "J37" H 6650 5100 50  0000 R CNN
 F 1 "Torp_EleMagnes" H 6850 5000 50  0000 R CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 6450 5200 50  0001 C CNN
+F 2 "molex_3d_2pin:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 6450 5200 50  0001 C CNN
 F 3 "~" H 6450 5200 50  0001 C CNN
 	1    6450 5200
 	1    0    0    -1  
@@ -425,7 +425,7 @@ AR Path="/5C93D53B/5CFB8B43" Ref="J?"  Part="1"
 AR Path="/5CE6C451/5CFB8B43" Ref="J40"  Part="1" 
 F 0 "J40" V 6550 5900 50  0000 R CNN
 F 1 "Extra" V 6650 5950 50  0000 R CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 6450 5900 50  0001 C CNN
+F 2 "molex_3d_2pin:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 6450 5900 50  0001 C CNN
 F 3 "~" H 6450 5900 50  0001 C CNN
 	1    6450 5900
 	1    0    0    -1  
@@ -545,7 +545,7 @@ AR Path="/5C93D53B/5CFB8B81" Ref="J?"  Part="1"
 AR Path="/5CE6C451/5CFB8B81" Ref="J38"  Part="1" 
 F 0 "J38" V 6550 5650 50  0000 R CNN
 F 1 "Extra" V 6650 5650 50  0000 R CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 6450 5600 50  0001 C CNN
+F 2 "molex_3d_2pin:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 6450 5600 50  0001 C CNN
 F 3 "~" H 6450 5600 50  0001 C CNN
 	1    6450 5600
 	1    0    0    -1  
@@ -1336,7 +1336,7 @@ U 1 1 5CC93F23
 P 850 2150
 F 0 "J59" V 816 2062 50  0000 R CNN
 F 1 "-BattPower" V 723 2062 50  0000 R CNN
-F 2 "MountingHole:MountingHole_5.5mm_Pad_Via" H 850 2150 50  0001 C CNN
+F 2 "MountingHole:MountingHole_5.5mm_Pad" H 850 2150 50  0001 C CNN
 F 3 "~" H 850 2150 50  0001 C CNN
 	1    850  2150
 	0    -1   -1   0   
