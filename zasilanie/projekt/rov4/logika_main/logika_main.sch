@@ -282,7 +282,7 @@ AR Path="/5CE94A6D" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94A6D" Ref="J17"  Part="1" 
 F 0 "J17" V 8400 4750 50  0000 R CNN
 F 1 "Xavier" V 8600 4950 50  0000 R CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 8500 4900 50  0001 C CNN
+F 2 "molex_3d_2pin:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 8500 4900 50  0001 C CNN
 F 3 "~" H 8500 4900 50  0001 C CNN
 	1    8500 4900
 	0    -1   1    0   
@@ -295,7 +295,7 @@ AR Path="/5CE94A74" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94A74" Ref="J18"  Part="1" 
 F 0 "J18" V 8750 4750 50  0000 R CNN
 F 1 "Kamera 1" V 8950 5000 50  0000 R CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 8850 4900 50  0001 C CNN
+F 2 "molex_3d_2pin:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 8850 4900 50  0001 C CNN
 F 3 "~" H 8850 4900 50  0001 C CNN
 	1    8850 4900
 	0    -1   1    0   
@@ -308,7 +308,7 @@ AR Path="/5CE94A7B" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94A7B" Ref="J19"  Part="1" 
 F 0 "J19" V 9200 4750 50  0000 R CNN
 F 1 "Kamera 2" V 9400 5000 50  0000 R CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9300 4900 50  0001 C CNN
+F 2 "molex_3d_2pin:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9300 4900 50  0001 C CNN
 F 3 "~" H 9300 4900 50  0001 C CNN
 	1    9300 4900
 	0    -1   1    0   
@@ -321,7 +321,7 @@ AR Path="/5CE94A82" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94A82" Ref="J20"  Part="1" 
 F 0 "J20" V 9600 4750 50  0000 R CNN
 F 1 "Extra" V 9800 4950 50  0000 R CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9700 4900 50  0001 C CNN
+F 2 "molex_3d_2pin:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9700 4900 50  0001 C CNN
 F 3 "~" H 9700 4900 50  0001 C CNN
 	1    9700 4900
 	0    -1   1    0   
@@ -334,7 +334,7 @@ AR Path="/5CE94A89" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94A89" Ref="J21"  Part="1" 
 F 0 "J21" V 9950 4750 50  0000 R CNN
 F 1 "Extra" V 10150 4950 50  0000 R CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 10050 4900 50  0001 C CNN
+F 2 "molex_3d_2pin:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 10050 4900 50  0001 C CNN
 F 3 "~" H 10050 4900 50  0001 C CNN
 	1    10050 4900
 	0    -1   1    0   
@@ -355,7 +355,7 @@ AR Path="/5CE94A94" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94A94" Ref="J9"  Part="1" 
 F 0 "J9" V 8150 3400 50  0000 R CNN
 F 1 "RPi" V 8250 3400 50  0000 R CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 8150 3250 50  0001 C CNN
+F 2 "molex_3d_2pin:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 8150 3250 50  0001 C CNN
 F 3 "~" H 8150 3250 50  0001 C CNN
 	1    8150 3250
 	0    -1   1    0   
@@ -368,7 +368,7 @@ AR Path="/5CE94A9B" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94A9B" Ref="J10"  Part="1" 
 F 0 "J10" V 8650 3450 50  0000 R CNN
 F 1 "Router" V 8750 3350 50  0000 R CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 8650 3250 50  0001 C CNN
+F 2 "molex_3d_2pin:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 8650 3250 50  0001 C CNN
 F 3 "~" H 8650 3250 50  0001 C CNN
 	1    8650 3250
 	0    -1   1    0   
@@ -381,7 +381,7 @@ AR Path="/5CE94AA2" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94AA2" Ref="J11"  Part="1" 
 F 0 "J11" V 9150 3450 50  0000 R CNN
 F 1 "Switch" V 9250 3350 50  0000 R CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9150 3250 50  0001 C CNN
+F 2 "molex_3d_2pin:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9150 3250 50  0001 C CNN
 F 3 "~" H 9150 3250 50  0001 C CNN
 	1    9150 3250
 	0    -1   1    0   
@@ -394,7 +394,7 @@ AR Path="/5CE94AA9" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94AA9" Ref="J7"  Part="1" 
 F 0 "J7" V 9450 2200 50  0000 R CNN
 F 1 "Extra" V 9650 2400 50  0000 R CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9550 2350 50  0001 C CNN
+F 2 "molex_3d_2pin:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9550 2350 50  0001 C CNN
 F 3 "~" H 9550 2350 50  0001 C CNN
 	1    9550 2350
 	0    -1   -1   0   
@@ -407,7 +407,7 @@ AR Path="/5CE94AB0" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94AB0" Ref="J6"  Part="1" 
 F 0 "J6" V 9050 2200 50  0000 R CNN
 F 1 "Extra" V 9250 2400 50  0000 R CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9150 2350 50  0001 C CNN
+F 2 "molex_3d_2pin:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9150 2350 50  0001 C CNN
 F 3 "~" H 9150 2350 50  0001 C CNN
 	1    9150 2350
 	0    -1   -1   0   
@@ -932,7 +932,7 @@ AR Path="/5CE94BD7" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94BD7" Ref="J14"  Part="1" 
 F 0 "J14" V 8400 3650 50  0000 R CNN
 F 1 "Enko_absolutny_1" V 8650 4250 50  0000 R CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 8500 3800 50  0001 C CNN
+F 2 "molex_3d_2pin:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 8500 3800 50  0001 C CNN
 F 3 "~" H 8500 3800 50  0001 C CNN
 	1    8500 3800
 	0    -1   -1   0   
@@ -945,7 +945,7 @@ AR Path="/5CE94BDE" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94BDE" Ref="J15"  Part="1" 
 F 0 "J15" V 8750 3650 50  0000 R CNN
 F 1 "Enko_absolutny_2" V 8950 3800 50  0000 R CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 8850 3800 50  0001 C CNN
+F 2 "molex_3d_2pin:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 8850 3800 50  0001 C CNN
 F 3 "~" H 8850 3800 50  0001 C CNN
 	1    8850 3800
 	0    -1   -1   0   
@@ -966,7 +966,7 @@ AR Path="/5CE94BE9" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94BE9" Ref="J12"  Part="1" 
 F 0 "J12" V 9450 3100 50  0000 R CNN
 F 1 "Enko_inkrementalny" H 9700 3350 50  0000 R CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9550 3250 50  0001 C CNN
+F 2 "molex_3d_2pin:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9550 3250 50  0001 C CNN
 F 3 "~" H 9550 3250 50  0001 C CNN
 	1    9550 3250
 	0    -1   1    0   
@@ -981,7 +981,7 @@ AR Path="/5CE94BF1" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94BF1" Ref="J13"  Part="1" 
 F 0 "J13" V 9900 3400 50  0000 R CNN
 F 1 "Torpedy, hall, laser" H 10450 3050 50  0000 R CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 10000 3250 50  0001 C CNN
+F 2 "molex_3d_2pin:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 10000 3250 50  0001 C CNN
 F 3 "~" H 10000 3250 50  0001 C CNN
 	1    10000 3250
 	0    -1   1    0   
@@ -1021,7 +1021,7 @@ AR Path="/5CE94C07" Ref="J?"  Part="1"
 AR Path="/5CE6C103/5CE94C07" Ref="J8"  Part="1" 
 F 0 "J8" V 9800 2150 50  0000 R CNN
 F 1 "STM32" V 10000 2350 50  0000 R CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9900 2300 50  0001 C CNN
+F 2 "molex_3d_2pin:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 9900 2300 50  0001 C CNN
 F 3 "~" H 9900 2300 50  0001 C CNN
 	1    9900 2300
 	0    -1   -1   0   
