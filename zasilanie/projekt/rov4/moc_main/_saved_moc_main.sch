@@ -29,8 +29,6 @@ F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 2650 1450 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	600  3250 4450 3250
-Wire Notes Line
 	4450 600  600  600 
 Text Notes 1600 800  0    51   ~ 0
 Układ do załączania zasilania zewnętrznym sygnałem\nz zabezpieczeniem przed odwrotną polaryzacją
@@ -92,8 +90,6 @@ F 3 "~" H 3150 2900 50  0001 C CNN
 	1    3150 2900
 	0    1    1    0   
 $EndComp
-Wire Notes Line
-	4650 600  4650 3250
 Wire Notes Line
 	600  600  600  3250
 Wire Wire Line

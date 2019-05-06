@@ -58,7 +58,7 @@ AR Path="/5C93D53B/5CFB8A83" Ref="J?"  Part="1"
 AR Path="/5CFB8A83" Ref="J?"  Part="1" 
 AR Path="/5CE6C451/5CFB8A83" Ref="J27"  Part="1" 
 F 0 "J27" H 1850 1050 50  0000 C CNN
-F 1 "HP_Enable" H 1850 1150 50  0000 C CNN
+F 1 "High power: ON-OFF" H 1850 1150 50  0000 C CNN
 F 2 "Connector_Molex:Molex_SPOX_5267-02A_1x02_P2.50mm_Vertical" H 1850 1350 50  0001 C CNN
 F 3 "~" H 1850 1350 50  0001 C CNN
 	1    1850 1350
@@ -93,7 +93,7 @@ F 3 "~" H 3150 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Notes Line
-	4450 600  4450 3250
+	4650 600  4650 3250
 Wire Notes Line
 	600  600  600  3250
 Wire Wire Line
@@ -263,21 +263,14 @@ Wire Wire Line
 	3150 1700 3150 1550
 Connection ~ 3150 1550
 Connection ~ 2800 2450
-Wire Wire Line
-	3750 2150 3750 950 
-Text GLabel 4200 1050 3    50   Input ~ 0
+Text GLabel 4550 1050 3    50   Input ~ 0
 +BattPow
 Wire Wire Line
-	3950 2450 4000 2450
+	4550 2450 4550 2400
 Wire Wire Line
-	4200 2450 4200 2400
-Wire Wire Line
-	4200 1050 4200 950 
+	4550 1050 4550 950 
 Wire Wire Line
 	2950 3000 2800 3000
-Connection ~ 3750 950 
-Wire Wire Line
-	3150 950  3750 950 
 Wire Wire Line
 	3350 2450 3450 2450
 Wire Wire Line
@@ -291,13 +284,10 @@ Connection ~ 3450 2450
 Wire Wire Line
 	3450 2450 3550 2450
 Wire Wire Line
-	4200 3000 4200 2450
-Connection ~ 4200 2450
-Wire Wire Line
-	3950 3000 4200 3000
+	4550 3000 4550 2450
+Connection ~ 4550 2450
 Wire Wire Line
 	3750 2700 3750 2150
-Connection ~ 3750 2150
 Wire Wire Line
 	3150 2700 3150 2150
 Connection ~ 3150 2150
@@ -309,7 +299,7 @@ Wire Wire Line
 	2800 2450 2950 2450
 Connection ~ 1750 2450
 Wire Wire Line
-	1750 2450 2800 2450
+	1750 2450 2600 2450
 Wire Wire Line
 	1250 2450 1250 2350
 Connection ~ 1250 2450
@@ -323,10 +313,8 @@ Wire Wire Line
 	850  950  1500 950 
 Wire Wire Line
 	850  2350 850  2450
-Text GLabel 4200 2400 1    50   Input ~ 0
+Text GLabel 4550 2400 1    50   Input ~ 0
 -BattPow
-Wire Wire Line
-	3750 950  3950 950 
 $Comp
 L UWE-12_10-Q12P-C:UWE-12_10-Q12PB-C IC?
 U 1 1 5CFB8B1D
@@ -358,7 +346,7 @@ AR Path="/5CFB8B26" Ref="J?"  Part="1"
 AR Path="/5C93D53B/5CFB8B26" Ref="J?"  Part="1" 
 AR Path="/5CE6C451/5CFB8B26" Ref="J36"  Part="1" 
 F 0 "J36" H 6650 4750 50  0000 R CNN
-F 1 "Manip_sil_12v" H 6800 4650 50  0000 R CNN
+F 1 "Extra" H 6800 4650 50  0000 R CNN
 F 2 "molex_3d_2pin:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 6450 4850 50  0001 C CNN
 F 3 "~" H 6450 4850 50  0001 C CNN
 	1    6450 4850
@@ -416,7 +404,7 @@ AR Path="/5CFB8B43" Ref="J?"  Part="1"
 AR Path="/5C93D53B/5CFB8B43" Ref="J?"  Part="1" 
 AR Path="/5CE6C451/5CFB8B43" Ref="J40"  Part="1" 
 F 0 "J40" V 6550 5900 50  0000 R CNN
-F 1 "Extra" V 6650 5950 50  0000 R CNN
+F 1 "Manip_Silnik_3" V 6650 5950 50  0000 R CNN
 F 2 "molex_3d_2pin:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 6450 5900 50  0001 C CNN
 F 3 "~" H 6450 5900 50  0001 C CNN
 	1    6450 5900
@@ -1267,40 +1255,37 @@ Connection ~ 3100 4500
 $Comp
 L Connector_Generic:Conn_02x02_Counter_Clockwise J52
 U 1 1 5CFCF07A
-P 4000 1700
-F 0 "J52" V 4003 1780 50  0000 L CNN
-F 1 "HP_OUT" V 4096 1780 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 4000 1700 50  0001 C CNN
-F 3 "~" H 4000 1700 50  0001 C CNN
-	1    4000 1700
+P 4350 1700
+F 0 "J52" V 4353 1780 50  0000 L CNN
+F 1 "HP_OUT" V 4446 1780 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 4350 1700 50  0001 C CNN
+F 3 "~" H 4350 1700 50  0001 C CNN
+	1    4350 1700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4000 1500 4000 1450
+	4350 1500 4350 1450
 Wire Wire Line
-	4000 1450 3950 1450
+	4350 1450 4300 1450
 Wire Wire Line
-	3900 1450 3900 1500
+	4250 1450 4250 1500
 Wire Wire Line
-	3950 1450 3950 950 
-Connection ~ 3950 1450
+	4300 1450 4300 950 
 Wire Wire Line
-	3950 1450 3900 1450
-Connection ~ 3950 950 
+	4300 1450 4250 1450
 Wire Wire Line
-	3950 950  4200 950 
+	4300 950  4550 950 
 Wire Wire Line
-	4000 2000 4000 2050
+	4350 2000 4350 2050
 Wire Wire Line
-	4000 2050 3900 2050
+	4350 2050 4250 2050
 Wire Wire Line
-	3900 2050 3900 2000
+	4250 2050 4250 2000
 Wire Wire Line
-	4000 2050 4000 2450
-Connection ~ 4000 2050
-Connection ~ 4000 2450
+	4350 2050 4350 2450
+Connection ~ 4350 2050
 Wire Wire Line
-	4000 2450 4200 2450
+	4350 2450 4550 2450
 $Comp
 L Connector_Generic:Conn_01x01 J58
 U 1 1 5CC7CDE7
@@ -1357,4 +1342,328 @@ Wire Wire Line
 	2250 1450 2250 1550
 Wire Wire Line
 	2250 1550 2350 1550
+$Comp
+L Connector:Screw_Terminal_01x01 J62
+U 1 1 5CD11FCE
+P 7300 3850
+F 0 "J62" V 7172 3929 50  0000 L CNN
+F 1 "bus_bar" V 7265 3929 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 7300 3850 50  0001 C CNN
+F 3 "~" H 7300 3850 50  0001 C CNN
+	1    7300 3850
+	0    1    1    0   
+$EndComp
+Connection ~ 6850 3600
+Wire Wire Line
+	6850 3600 7300 3600
+Wire Wire Line
+	7300 3600 7300 3650
+$Comp
+L Connector:Screw_Terminal_01x01 J63
+U 1 1 5CD42884
+P 7750 3850
+F 0 "J63" V 7622 3929 50  0000 L CNN
+F 1 "bus_bar" V 7715 3929 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 7750 3850 50  0001 C CNN
+F 3 "~" H 7750 3850 50  0001 C CNN
+	1    7750 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J64
+U 1 1 5CD4E3BA
+P 8200 3850
+F 0 "J64" V 8072 3929 50  0000 L CNN
+F 1 "bus_bar" V 8165 3929 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8200 3850 50  0001 C CNN
+F 3 "~" H 8200 3850 50  0001 C CNN
+	1    8200 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J65
+U 1 1 5CD59EFB
+P 8650 3850
+F 0 "J65" V 8522 3929 50  0000 L CNN
+F 1 "bus_bar" V 8615 3929 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8650 3850 50  0001 C CNN
+F 3 "~" H 8650 3850 50  0001 C CNN
+	1    8650 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J66
+U 1 1 5CD71949
+P 9100 3850
+F 0 "J66" V 8972 3929 50  0000 L CNN
+F 1 "bus_bar" V 9065 3929 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9100 3850 50  0001 C CNN
+F 3 "~" H 9100 3850 50  0001 C CNN
+	1    9100 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J67
+U 1 1 5CD7D304
+P 9550 3850
+F 0 "J67" V 9422 3929 50  0000 L CNN
+F 1 "bus_bar" V 9515 3929 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9550 3850 50  0001 C CNN
+F 3 "~" H 9550 3850 50  0001 C CNN
+	1    9550 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7300 3600 7750 3600
+Wire Wire Line
+	9550 3600 9550 3650
+Connection ~ 7300 3600
+Wire Wire Line
+	9100 3650 9100 3600
+Connection ~ 9100 3600
+Wire Wire Line
+	9100 3600 9550 3600
+Wire Wire Line
+	8650 3650 8650 3600
+Connection ~ 8650 3600
+Wire Wire Line
+	8650 3600 9100 3600
+Wire Wire Line
+	8200 3650 8200 3600
+Connection ~ 8200 3600
+Wire Wire Line
+	8200 3600 8650 3600
+Wire Wire Line
+	7750 3650 7750 3600
+Connection ~ 7750 3600
+Wire Wire Line
+	7750 3600 8200 3600
+$Comp
+L Connector:Screw_Terminal_01x01 J68
+U 1 1 5CDDE712
+P 7150 4750
+F 0 "J68" V 7022 4829 50  0000 L CNN
+F 1 "bus_bar_bott" H 7100 4850 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 7150 4750 50  0001 C CNN
+F 3 "~" H 7150 4750 50  0001 C CNN
+	1    7150 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J69
+U 1 1 5CE10E03
+P 7400 4750
+F 0 "J69" V 7272 4829 50  0000 L CNN
+F 1 "bus_bar_bott" H 7350 4850 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 7400 4750 50  0001 C CNN
+F 3 "~" H 7400 4750 50  0001 C CNN
+	1    7400 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J70
+U 1 1 5CE1D4FB
+P 7650 4750
+F 0 "J70" V 7522 4829 50  0000 L CNN
+F 1 "bus_bar_bott" H 7600 4850 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 7650 4750 50  0001 C CNN
+F 3 "~" H 7650 4750 50  0001 C CNN
+	1    7650 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J71
+U 1 1 5CE1D502
+P 7900 4750
+F 0 "J71" V 7772 4829 50  0000 L CNN
+F 1 "bus_bar_bott" H 7850 4850 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 7900 4750 50  0001 C CNN
+F 3 "~" H 7900 4750 50  0001 C CNN
+	1    7900 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J72
+U 1 1 5CE36361
+P 8150 4750
+F 0 "J72" V 8022 4829 50  0000 L CNN
+F 1 "bus_bar_bott" H 8100 4850 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8150 4750 50  0001 C CNN
+F 3 "~" H 8150 4750 50  0001 C CNN
+	1    8150 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J73
+U 1 1 5CE36368
+P 8400 4750
+F 0 "J73" V 8272 4829 50  0000 L CNN
+F 1 "bus_bar_bott" H 8350 4850 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8400 4750 50  0001 C CNN
+F 3 "~" H 8400 4750 50  0001 C CNN
+	1    8400 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J74
+U 1 1 5CE3636F
+P 8650 4750
+F 0 "J74" V 8522 4829 50  0000 L CNN
+F 1 "bus_bar_bott" H 8600 4850 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8650 4750 50  0001 C CNN
+F 3 "~" H 8650 4750 50  0001 C CNN
+	1    8650 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J75
+U 1 1 5CE36376
+P 8900 4750
+F 0 "J75" V 8772 4829 50  0000 L CNN
+F 1 "bus_bar_bott" H 8850 4850 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8900 4750 50  0001 C CNN
+F 3 "~" H 8900 4750 50  0001 C CNN
+	1    8900 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J76
+U 1 1 5CE42B19
+P 9150 4750
+F 0 "J76" V 9022 4829 50  0000 L CNN
+F 1 "bus_bar_bott" H 9100 4850 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9150 4750 50  0001 C CNN
+F 3 "~" H 9150 4750 50  0001 C CNN
+	1    9150 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J77
+U 1 1 5CE42B20
+P 9400 4750
+F 0 "J77" V 9272 4829 50  0000 L CNN
+F 1 "bus_bar_bott" H 9350 4850 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9400 4750 50  0001 C CNN
+F 3 "~" H 9400 4750 50  0001 C CNN
+	1    9400 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x01 J78
+U 1 1 5CE42B27
+P 9650 4750
+F 0 "J78" V 9522 4829 50  0000 L CNN
+F 1 "bus_bar_bott" H 9600 4850 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9650 4750 50  0001 C CNN
+F 3 "~" H 9650 4750 50  0001 C CNN
+	1    9650 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6850 4550 7150 4550
+Connection ~ 6850 4550
+Connection ~ 7150 4550
+Wire Wire Line
+	7150 4550 7400 4550
+Connection ~ 7400 4550
+Wire Wire Line
+	7400 4550 7650 4550
+Connection ~ 7650 4550
+Wire Wire Line
+	7650 4550 7900 4550
+Connection ~ 7900 4550
+Wire Wire Line
+	7900 4550 8150 4550
+Connection ~ 8150 4550
+Wire Wire Line
+	8150 4550 8400 4550
+Connection ~ 8400 4550
+Wire Wire Line
+	8400 4550 8650 4550
+Connection ~ 8650 4550
+Wire Wire Line
+	8650 4550 8900 4550
+Connection ~ 8900 4550
+Wire Wire Line
+	8900 4550 9150 4550
+Connection ~ 9150 4550
+Wire Wire Line
+	9150 4550 9400 4550
+Connection ~ 9400 4550
+Wire Wire Line
+	9400 4550 9650 4550
+$Comp
+L Device:D_TVS D?
+U 1 1 5CF84DF9
+P 2600 2250
+AR Path="/5CE6C103/5CF84DF9" Ref="D?"  Part="1" 
+AR Path="/5CE6C451/5CF84DF9" Ref="D17"  Part="1" 
+F 0 "D17" H 2450 2350 50  0000 L CNN
+F 1 "D_TVS" H 2450 2150 50  0000 L CNN
+F 2 "Diode_SMD:D_SMB" H 2600 2250 50  0001 C CNN
+F 3 "~" H 2600 2250 50  0001 C CNN
+	1    2600 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2600 2450 2600 2400
+Connection ~ 2600 2450
+Wire Wire Line
+	2600 2450 2800 2450
+Wire Wire Line
+	2600 2100 2600 2050
+Wire Wire Line
+	2600 2050 2800 2050
+Connection ~ 2800 2050
+Connection ~ 4300 1450
+Wire Wire Line
+	3950 2450 4100 2450
+Connection ~ 4350 2450
+Wire Wire Line
+	3950 3000 4550 3000
+Connection ~ 4300 950 
+Wire Wire Line
+	3150 950  3750 950 
+$Comp
+L Device:R R18
+U 1 1 5D01EEFF
+P 3750 1800
+F 0 "R18" H 3820 1847 50  0000 L CNN
+F 1 "100" H 3820 1754 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3680 1800 50  0001 C CNN
+F 3 "~" H 3750 1800 50  0001 C CNN
+	1    3750 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2150 3750 2100
+Connection ~ 3750 2150
+Wire Wire Line
+	3750 1650 3750 950 
+Connection ~ 3750 950 
+Wire Wire Line
+	3750 950  4300 950 
+$Comp
+L Device:D_TVS D?
+U 1 1 5D03B474
+P 4100 2250
+AR Path="/5CE6C103/5D03B474" Ref="D?"  Part="1" 
+AR Path="/5CE6C451/5D03B474" Ref="D18"  Part="1" 
+F 0 "D18" H 3950 2350 50  0000 L CNN
+F 1 "D_TVS" H 3950 2150 50  0000 L CNN
+F 2 "Diode_SMD:D_SMB" H 4100 2250 50  0001 C CNN
+F 3 "~" H 4100 2250 50  0001 C CNN
+	1    4100 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 2450 4100 2400
+Connection ~ 4100 2450
+Wire Wire Line
+	4100 2450 4350 2450
+Wire Wire Line
+	4100 2100 3750 2100
+Connection ~ 3750 2100
+Wire Wire Line
+	3750 2100 3750 1950
 $EndSCHEMATC

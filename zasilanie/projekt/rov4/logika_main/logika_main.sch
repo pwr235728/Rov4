@@ -14,13 +14,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 850  1700 1    59   ~ 0
+Text Label 900  1450 1    59   ~ 0
 +Batt
-Text Label 850  2200 3    59   ~ 0
+Text Label 900  1950 3    59   ~ 0
 -Batt
 Text Notes 1000 900  0    51   ~ 0
 Przekaźnik do załączania zasilania zewnętrznym \nprzełącznikiem (kontaktronem) z zabezpieczeniem przed \nodwrotną polaryzacją
-Text GLabel 3650 1350 3    50   Input ~ 0
+Text GLabel 4650 1100 3    50   Input ~ 0
 +BattDigit
 Wire Notes Line
 	550  550  3750 550 
@@ -29,199 +29,172 @@ Wire Notes Line
 $Comp
 L Device:Q_NMOS_GSD Q1
 U 1 1 5CE84D18
-P 2600 2400
-F 0 "Q1" V 2550 2500 50  0000 L CNN
-F 1 "IPT004N03L" V 2850 2200 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1" H 2800 2500 50  0001 C CNN
-F 3 "~" H 2600 2400 50  0001 C CNN
-	1    2600 2400
+P 3050 2150
+F 0 "Q1" V 3000 2250 50  0000 L CNN
+F 1 "IPT004N03L" V 3300 1950 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1" H 3250 2250 50  0001 C CNN
+F 3 "~" H 3050 2150 50  0001 C CNN
+	1    3050 2150
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:Q_NMOS_GSD Q2
 U 1 1 5CE84D1F
-P 3150 2400
-F 0 "Q2" V 3100 2200 50  0000 L CNN
-F 1 "IPT004N03L" V 3400 2100 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1" H 3350 2500 50  0001 C CNN
-F 3 "~" H 3150 2400 50  0001 C CNN
-	1    3150 2400
+P 3600 2150
+F 0 "Q2" V 3550 1950 50  0000 L CNN
+F 1 "IPT004N03L" V 3850 1850 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1" H 3800 2250 50  0001 C CNN
+F 3 "~" H 3600 2150 50  0001 C CNN
+	1    3600 2150
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	3550 2450 3550 2500
 Wire Notes Line
 	550  2850 550  550 
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 5CE84D29
-P 2300 1600
-F 0 "J2" H 2300 1400 50  0000 C CNN
-F 1 "Reed switch" H 2300 1700 50  0000 C CNN
-F 2 "Connector_Molex:Molex_SPOX_5267-02A_1x02_P2.50mm_Vertical" H 2300 1600 50  0001 C CNN
-F 3 "~" H 2300 1600 50  0001 C CNN
-	1    2300 1600
+P 2750 1350
+F 0 "J2" H 2750 1150 50  0000 C CNN
+F 1 "Digital power: ON-OFF" H 2600 1450 50  0000 C CNN
+F 2 "Connector_Molex:Molex_SPOX_5267-02A_1x02_P2.50mm_Vertical" H 2750 1350 50  0001 C CNN
+F 3 "~" H 2750 1350 50  0001 C CNN
+	1    2750 1350
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x01 J1
 U 1 1 5CE84D30
-P 850 1900
-F 0 "J1" H 850 2000 50  0000 R CNN
-F 1 "Battery digital" H 1150 1800 50  0000 R CNN
-F 2 "power_connectors:XT60UPB-M" H 850 1900 50  0001 C CNN
-F 3 "~" H 850 1900 50  0001 C CNN
-	1    850  1900
+P 900 1650
+F 0 "J1" H 900 1750 50  0000 R CNN
+F 1 "Battery digital" H 1200 1550 50  0000 R CNN
+F 2 "power_connectors:XT60UPB-M" H 900 1650 50  0001 C CNN
+F 3 "~" H 900 1650 50  0001 C CNN
+	1    900  1650
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	850  2200 850  2500
+	900  1950 900  2250
 Wire Wire Line
-	850  1700 850  1300
-Wire Wire Line
-	3150 1300 3150 2200
+	900  1450 900  1050
 $Comp
 L Device:R R2
 U 1 1 5CE84D3A
-P 2600 1900
-F 0 "R2" H 2670 1947 50  0000 L CNN
-F 1 "100" H 2670 1854 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2530 1900 50  0001 C CNN
-F 3 "~" H 2600 1900 50  0001 C CNN
-	1    2600 1900
+P 3050 1650
+F 0 "R2" H 3120 1697 50  0000 L CNN
+F 1 "100" H 3120 1604 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2980 1650 50  0001 C CNN
+F 3 "~" H 3050 1650 50  0001 C CNN
+	1    3050 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R3
 U 1 1 5CE84D41
-P 2250 2300
-F 0 "R3" H 2320 2347 50  0000 L CNN
-F 1 "10k" H 2320 2254 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2180 2300 50  0001 C CNN
-F 3 "~" H 2250 2300 50  0001 C CNN
-	1    2250 2300
+P 2700 2050
+F 0 "R3" H 2770 2097 50  0000 L CNN
+F 1 "10k" H 2770 2004 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2630 2050 50  0001 C CNN
+F 3 "~" H 2700 2050 50  0001 C CNN
+	1    2700 2050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2250 2500 2250 2450
+	3050 1350 3050 1500
 Wire Wire Line
-	2250 2150 2250 2100
+	3050 1250 3050 1050
 Wire Wire Line
-	2600 1600 2600 1750
+	2950 1350 3050 1350
 Wire Wire Line
-	2600 1500 2600 1300
-Wire Wire Line
-	2500 1600 2600 1600
-Wire Wire Line
-	2600 1500 2500 1500
+	3050 1250 2950 1250
 $Comp
 L Device:R R1
 U 1 1 5CE84D4E
-P 1500 1550
-F 0 "R1" H 1570 1597 50  0000 L CNN
-F 1 "3k" H 1570 1504 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 1430 1550 50  0001 C CNN
-F 3 "~" H 1500 1550 50  0001 C CNN
-	1    1500 1550
+P 1550 1300
+F 0 "R1" H 1620 1347 50  0000 L CNN
+F 1 "3k" H 1620 1254 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1480 1300 50  0001 C CNN
+F 3 "~" H 1550 1300 50  0001 C CNN
+	1    1550 1300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D1
 U 1 1 5CE84D55
-P 1250 2300
-F 0 "D1" V 1289 2379 50  0000 L CNN
-F 1 "LED_G" V 1196 2379 50  0000 L CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 1250 2300 50  0001 C CNN
-F 3 "~" H 1250 2300 50  0001 C CNN
-	1    1250 2300
+P 1300 2050
+F 0 "D1" V 1339 2129 50  0000 L CNN
+F 1 "LED_G" V 1246 2129 50  0000 L CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 1300 2050 50  0001 C CNN
+F 3 "~" H 1300 2050 50  0001 C CNN
+	1    1300 2050
 	0    1    -1   0   
 $EndComp
 $Comp
 L Device:D_Schottky D3
 U 1 1 5CE84D5C
-P 1250 1950
-F 0 "D3" V 1297 1871 50  0000 R CNN
-F 1 "BAT48" V 1204 1871 50  0000 R CNN
-F 2 "Diode_SMD:D_MiniMELF" H 1250 1950 50  0001 C CNN
-F 3 "~" H 1250 1950 50  0001 C CNN
-	1    1250 1950
+P 1300 1700
+F 0 "D3" V 1347 1621 50  0000 R CNN
+F 1 "BAT48" V 1254 1621 50  0000 R CNN
+F 2 "Diode_SMD:D_MiniMELF" H 1300 1700 50  0001 C CNN
+F 3 "~" H 1300 1700 50  0001 C CNN
+	1    1300 1700
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED D2
 U 1 1 5CE84D63
-P 1750 2300
-F 0 "D2" V 1694 2181 50  0000 R CNN
-F 1 "LED_R" V 1787 2181 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 1750 2300 50  0001 C CNN
-F 3 "~" H 1750 2300 50  0001 C CNN
-	1    1750 2300
+P 1800 2050
+F 0 "D2" V 1750 2000 50  0000 R CNN
+F 1 "LED_R" V 1900 2050 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 1800 2050 50  0001 C CNN
+F 3 "~" H 1800 2050 50  0001 C CNN
+	1    1800 2050
 	0    -1   1    0   
 $EndComp
 $Comp
 L Device:D_Schottky D4
 U 1 1 5CE84D6A
-P 1750 1950
-F 0 "D4" V 1703 2029 50  0000 L CNN
-F 1 "BAT48" V 1796 2029 50  0000 L CNN
-F 2 "Diode_SMD:D_MiniMELF" H 1750 1950 50  0001 C CNN
-F 3 "~" H 1750 1950 50  0001 C CNN
-	1    1750 1950
+P 1800 1700
+F 0 "D4" V 1753 1779 50  0000 L CNN
+F 1 "BAT48" V 1846 1779 50  0000 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 1800 1700 50  0001 C CNN
+F 3 "~" H 1800 1700 50  0001 C CNN
+	1    1800 1700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1250 2500 1250 2450
+	1300 2250 1300 2200
 Wire Wire Line
-	1250 2150 1250 2100
+	1300 1900 1300 1850
 Wire Wire Line
-	1250 1800 1250 1750
+	1300 1550 1300 1500
 Wire Wire Line
-	1750 1750 1750 1800
+	1800 1500 1800 1550
 Wire Wire Line
-	1500 1750 1500 1700
+	1550 1500 1550 1450
 Wire Wire Line
-	1250 1750 1500 1750
+	1300 1500 1550 1500
 Wire Wire Line
-	1500 1750 1750 1750
+	1550 1500 1800 1500
 Wire Wire Line
-	1500 1400 1500 1300
+	1550 1150 1550 1050
 Wire Wire Line
-	1750 2150 1750 2100
+	1800 1900 1800 1850
 Wire Wire Line
-	3150 1300 3350 1300
+	3050 1800 3050 1850
+Connection ~ 3050 1850
 Wire Wire Line
-	2800 2500 2950 2500
+	3050 1850 3050 1950
 Wire Wire Line
-	2600 1300 3150 1300
-Connection ~ 2600 1300
-Connection ~ 3150 1300
-Connection ~ 2250 2500
+	1800 2200 1800 2250
 Wire Wire Line
-	2250 2500 2400 2500
+	900  1050 1550 1050
+Connection ~ 1300 2250
 Wire Wire Line
-	2600 2050 2600 2100
+	1300 2250 1800 2250
+Connection ~ 1550 1500
 Wire Wire Line
-	2250 2100 2600 2100
-Connection ~ 2600 2100
-Wire Wire Line
-	2600 2100 2600 2200
-Wire Wire Line
-	1750 2450 1750 2500
-Connection ~ 1750 2500
-Wire Wire Line
-	1750 2500 2250 2500
-Connection ~ 1500 1300
-Wire Wire Line
-	1500 1300 2600 1300
-Wire Wire Line
-	850  1300 1500 1300
-Connection ~ 1250 2500
-Wire Wire Line
-	1250 2500 1750 2500
-Connection ~ 1500 1750
-Wire Wire Line
-	850  2500 1250 2500
-Text GLabel 3550 2450 1    50   Input ~ 0
+	900  2250 1300 2250
+Text GLabel 4650 2200 1    50   Input ~ 0
 -BattDigit
 $Comp
 L UWE-12_10-Q12P-C:UWE-12_10-Q12PB-C IC?
@@ -664,12 +637,10 @@ Connection ~ 9250 2950
 Wire Wire Line
 	9250 2950 9250 2550
 Wire Wire Line
-	8750 2550 8750 3050
-Wire Wire Line
 	8250 3050 8250 2950
 Connection ~ 8250 2950
 Wire Wire Line
-	8250 2950 9250 2950
+	8250 2950 8750 2950
 Wire Wire Line
 	8250 2550 8250 2950
 $Comp
@@ -1290,22 +1261,18 @@ Wire Wire Line
 Connection ~ 6350 6400
 Wire Wire Line
 	6350 6400 6350 6650
-Text Notes 5700 1850 0    59   ~ 0
+Text Notes 8000 1850 0    59   ~ 0
 5V:\n> in max 8 A,\n> fuse: 10A slow blown,\n> out max: 12A\n\n-Router: 2A\n-Switch: 2A\n-RPi: 2A\n\n-AHRS, Bar02 (depth), distance?: <1A\n-Torpedy: hall, laser: <1A\n\n= 8A\n
-Text Notes 7650 1250 0    59   ~ 0
+Text Notes 9950 1250 0    59   ~ 0
 +/-15v:\n> in max 2 A,\n> fuse: 3-4-5A ?,\n> out min: +/- 0.04A\n> out max: +/- 0.8A\n\n-Hydrofony\n
-Text Notes 4200 1750 0    59   ~ 0
+Text Notes 6500 1750 0    59   ~ 0
 12V:\n> in max 15 A,\n> fuse: 20A fast blown,\n> out max: 10A\n\n-Xavier: <4A\n-Kamera 1: <2A\n-Kamera 2: <2A\n\n-dodatkowe: <2A\n\n= 8A\n
 Wire Notes Line
-	5550 500  5550 1950
+	7850 500  7850 1950
 Wire Notes Line
-	7500 500  7500 1950
+	9800 500  9800 1950
 Wire Notes Line
-	4000 1950 11200 1950
-Wire Notes Line
-	3750 2850 3750 550 
-Wire Notes Line
-	4000 1950 4000 500 
+	6350 1950 6350 500 
 $Sheet
 S 750  3150 2950 1750
 U 5CFD9CF5
@@ -1359,13 +1326,13 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x02_Counter_Clockwise J22
 U 1 1 5CE9776A
-P 5250 6350
-F 0 "J22" H 5300 6150 50  0000 C CNN
-F 1 "hydrofony" H 5300 6477 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 5250 6350 50  0001 C CNN
-F 3 "~" H 5250 6350 50  0001 C CNN
-	1    5250 6350
-	-1   0    0    -1  
+P 5250 6450
+F 0 "J22" H 5300 6250 50  0000 C CNN
+F 1 "hydrofony" H 5300 6577 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 5250 6450 50  0001 C CNN
+F 3 "~" H 5250 6450 50  0001 C CNN
+	1    5250 6450
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	4600 6150 5450 6150
@@ -1376,8 +1343,6 @@ Wire Wire Line
 Wire Wire Line
 	4950 6450 4950 6400
 Connection ~ 4950 6400
-Wire Wire Line
-	5450 6350 5450 6150
 Connection ~ 5450 6150
 Wire Wire Line
 	5450 6150 5550 6150
@@ -1389,39 +1354,31 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x02_Counter_Clockwise J?
 U 1 1 5D00EF41
-P 3400 1800
+P 4400 1550
 AR Path="/5CE6C451/5D00EF41" Ref="J?"  Part="1" 
 AR Path="/5CE6C451/5CFC4C34/5D00EF41" Ref="J?"  Part="1" 
 AR Path="/5CE6C103/5D00EF41" Ref="J55"  Part="1" 
-F 0 "J55" V 3403 1880 50  0000 L CNN
-F 1 "LP_OUT" V 3496 1880 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 3400 1800 50  0001 C CNN
-F 3 "~" H 3400 1800 50  0001 C CNN
-	1    3400 1800
+F 0 "J55" V 4403 1630 50  0000 L CNN
+F 1 "LP_OUT" V 4496 1630 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 4400 1550 50  0001 C CNN
+F 3 "~" H 4400 1550 50  0001 C CNN
+	1    4400 1550
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3300 1600 3350 1600
+	4300 1350 4350 1350
 Wire Wire Line
-	3350 1600 3350 1300
-Connection ~ 3350 1600
+	4350 1350 4350 1050
+Connection ~ 4350 1350
 Wire Wire Line
-	3350 1600 3400 1600
-Connection ~ 3350 1300
+	4350 1350 4400 1350
 Wire Wire Line
-	3300 2100 3400 2100
+	4300 1850 4400 1850
 Wire Wire Line
-	3400 2100 3400 2500
+	4400 1850 4400 2250
+Connection ~ 4400 1850
 Wire Wire Line
-	3350 2500 3400 2500
-Connection ~ 3400 2100
-Connection ~ 3400 2500
-Wire Wire Line
-	3400 2500 3550 2500
-Wire Wire Line
-	3650 1350 3650 1300
-Wire Wire Line
-	3350 1300 3650 1300
+	4650 1100 4650 1050
 Wire Notes Line
 	4800 3500 4800 3800
 Wire Notes Line
@@ -1465,4 +1422,105 @@ F 3 "~" H 1750 6900 50  0001 C CNN
 	1    1750 6900
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	8750 2550 8750 2950
+Connection ~ 8750 2950
+Wire Wire Line
+	8750 2950 9250 2950
+Wire Wire Line
+	8750 3050 8750 2950
+Wire Wire Line
+	5450 6150 5450 6350
+$Comp
+L Device:D_TVS D15
+U 1 1 5CE5F2BC
+P 2400 2050
+F 0 "D15" H 2250 2150 50  0000 L CNN
+F 1 "D_TVS" H 2250 1950 50  0000 L CNN
+F 2 "Diode_SMD:D_SMB" H 2400 2050 50  0001 C CNN
+F 3 "~" H 2400 2050 50  0001 C CNN
+	1    2400 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 5CED27D0
+P 3600 1300
+F 0 "R17" H 3450 1350 50  0000 L CNN
+F 1 "100" H 3400 1250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3530 1300 50  0001 C CNN
+F 3 "~" H 3600 1300 50  0001 C CNN
+	1    3600 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_TVS D16
+U 1 1 5CEFE335
+P 3900 1900
+F 0 "D16" H 3750 2000 50  0000 L CNN
+F 1 "D_TVS" H 3750 1800 50  0000 L CNN
+F 2 "Diode_SMD:D_SMB" H 3900 1900 50  0001 C CNN
+F 3 "~" H 3900 1900 50  0001 C CNN
+	1    3900 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 2250 4650 2200
+Connection ~ 4350 1050
+Wire Wire Line
+	4350 1050 4650 1050
+Connection ~ 4400 2250
+Wire Wire Line
+	4400 2250 4650 2250
+Wire Wire Line
+	3800 2250 3900 2250
+Wire Wire Line
+	3900 2250 4400 2250
+Connection ~ 3900 2250
+Wire Wire Line
+	3600 1150 3600 1050
+Wire Wire Line
+	3600 1450 3600 1500
+Wire Wire Line
+	3900 2050 3900 2250
+Wire Wire Line
+	3900 1750 3900 1500
+Wire Wire Line
+	3900 1500 3600 1500
+Connection ~ 3600 1500
+Wire Wire Line
+	3600 1500 3600 1950
+Wire Wire Line
+	3250 2250 3400 2250
+Wire Wire Line
+	3050 1050 3600 1050
+Connection ~ 3050 1050
+Connection ~ 3600 1050
+Wire Wire Line
+	3600 1050 4350 1050
+Wire Wire Line
+	1550 1050 3050 1050
+Connection ~ 1550 1050
+Connection ~ 1800 2250
+Wire Wire Line
+	1800 2250 2400 2250
+Wire Wire Line
+	2400 1900 2400 1850
+Wire Wire Line
+	2400 1850 2700 1850
+Wire Wire Line
+	2400 2200 2400 2250
+Connection ~ 2400 2250
+Wire Wire Line
+	2400 2250 2700 2250
+Wire Wire Line
+	2700 2250 2700 2200
+Connection ~ 2700 2250
+Wire Wire Line
+	2700 2250 2850 2250
+Wire Wire Line
+	2700 1900 2700 1850
+Connection ~ 2700 1850
+Wire Wire Line
+	2700 1850 3050 1850
 $EndSCHEMATC
