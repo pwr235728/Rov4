@@ -198,6 +198,4 @@ Connection ~ 1350 2100
 Wire Wire Line
 	1350 2100 1650 2100
 Connection ~ 1650 2100
-Wire Wire Line
-	1650 2100 1750 2100
 $EndSCHEMATC

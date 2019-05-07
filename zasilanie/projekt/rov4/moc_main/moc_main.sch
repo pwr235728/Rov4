@@ -29,8 +29,6 @@ F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 2650 1450 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	600  3250 4450 3250
-Wire Notes Line
 	4450 600  600  600 
 Text Notes 1600 800  0    51   ~ 0
 Układ do załączania zasilania zewnętrznym sygnałem\nz zabezpieczeniem przed odwrotną polaryzacją
@@ -92,8 +90,6 @@ F 3 "~" H 3150 2900 50  0001 C CNN
 	1    3150 2900
 	0    1    1    0   
 $EndComp
-Wire Notes Line
-	4650 600  4650 3250
 Wire Notes Line
 	600  600  600  3250
 Wire Wire Line
@@ -306,11 +302,11 @@ Connection ~ 1250 2450
 Wire Wire Line
 	1250 2450 1750 2450
 Wire Wire Line
-	850  2450 1250 2450
+	850  2450 1100 2450
 Wire Wire Line
 	850  1050 850  950 
 Wire Wire Line
-	850  950  1500 950 
+	850  950  1100 950 
 Wire Wire Line
 	850  2350 850  2450
 Text GLabel 4550 2400 1    50   Input ~ 0
@@ -1620,7 +1616,7 @@ Wire Wire Line
 	3950 2450 4100 2450
 Connection ~ 4350 2450
 Wire Wire Line
-	3950 3000 4550 3000
+	3950 3000 4050 3000
 Connection ~ 4300 950 
 Wire Wire Line
 	3150 950  3750 950 
@@ -1666,4 +1662,77 @@ Wire Wire Line
 Connection ~ 3750 2100
 Wire Wire Line
 	3750 2100 3750 1950
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5CD39E25
+P 800 1650
+AR Path="/5C93D53B/5CD39E25" Ref="J?"  Part="1" 
+AR Path="/5CD39E25" Ref="J?"  Part="1" 
+AR Path="/5CE6C451/5CD39E25" Ref="J80"  Part="1" 
+F 0 "J80" H 800 1350 50  0000 C CNN
+F 1 "BatPow_Sens" H 750 1450 50  0000 C CNN
+F 2 "Connector_Molex:Molex_SPOX_5267-02A_1x02_P2.50mm_Vertical" H 800 1650 50  0001 C CNN
+F 3 "~" H 800 1650 50  0001 C CNN
+	1    800  1650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 1650 1100 1650
+Wire Wire Line
+	1100 1650 1100 950 
+Connection ~ 1100 950 
+Wire Wire Line
+	1100 950  1500 950 
+Wire Wire Line
+	1000 1750 1100 1750
+Wire Wire Line
+	1100 1750 1100 2450
+Connection ~ 1100 2450
+Wire Wire Line
+	1100 2450 1250 2450
+$Comp
+L Device:D_TVS D?
+U 1 1 5CD8A85A
+P 3150 3350
+AR Path="/5CE6C103/5CD8A85A" Ref="D?"  Part="1" 
+AR Path="/5CE6C451/5CD8A85A" Ref="D21"  Part="1" 
+F 0 "D21" H 3000 3450 50  0000 L CNN
+F 1 "D_TVS" H 3000 3250 50  0000 L CNN
+F 2 "Diode_SMD:D_SMB" H 3150 3350 50  0001 C CNN
+F 3 "~" H 3150 3350 50  0001 C CNN
+	1    3150 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_TVS D?
+U 1 1 5CD8B41C
+P 3750 3350
+AR Path="/5CE6C103/5CD8B41C" Ref="D?"  Part="1" 
+AR Path="/5CE6C451/5CD8B41C" Ref="D22"  Part="1" 
+F 0 "D22" H 3600 3450 50  0000 L CNN
+F 1 "D_TVS" H 3600 3250 50  0000 L CNN
+F 2 "Diode_SMD:D_SMB" H 3750 3350 50  0001 C CNN
+F 3 "~" H 3750 3350 50  0001 C CNN
+	1    3750 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 3000 2800 3350
+Wire Wire Line
+	2800 3350 3000 3350
+Connection ~ 2800 3000
+Wire Wire Line
+	3450 3000 3450 3350
+Wire Wire Line
+	3450 3350 3300 3350
+Wire Wire Line
+	3450 3350 3600 3350
+Connection ~ 3450 3350
+Wire Wire Line
+	4050 3000 4050 3350
+Wire Wire Line
+	4050 3350 3900 3350
+Connection ~ 4050 3000
+Wire Wire Line
+	4050 3000 4550 3000
 $EndSCHEMATC
