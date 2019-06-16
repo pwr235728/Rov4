@@ -1491,7 +1491,7 @@ Connection ~ 3600 1500
 Wire Wire Line
 	3600 1500 3600 1950
 Wire Wire Line
-	3250 2250 3400 2250
+	3250 2250 3300 2250
 Wire Wire Line
 	3050 1050 3600 1050
 Connection ~ 3050 1050
@@ -1530,8 +1530,8 @@ P 500 1650
 AR Path="/5C93D53B/5CD59CED" Ref="J?"  Part="1" 
 AR Path="/5CD59CED" Ref="J?"  Part="1" 
 AR Path="/5CE6C451/5CD59CED" Ref="J?"  Part="1" 
-AR Path="/5CE6C103/5CD59CED" Ref="J?"  Part="1" 
-F 0 "J?" H 500 1350 50  0000 C CNN
+AR Path="/5CE6C103/5CD59CED" Ref="J79"  Part="1" 
+F 0 "J79" H 500 1350 50  0000 C CNN
 F 1 "BatDig_Sens" H 450 1450 50  0000 C CNN
 F 2 "Connector_Molex:Molex_SPOX_5267-02A_1x02_P2.50mm_Vertical" H 500 1650 50  0001 C CNN
 F 3 "~" H 500 1650 50  0001 C CNN
@@ -1548,4 +1548,44 @@ Wire Wire Line
 Wire Wire Line
 	700  2250 900  2250
 Connection ~ 900  2250
+$Comp
+L Device:D_TVS D19
+U 1 1 5CDCF13A
+P 3050 2600
+F 0 "D19" H 2900 2700 50  0000 L CNN
+F 1 "D_TVS" H 2900 2500 50  0000 L CNN
+F 2 "Diode_SMD:D_SMB" H 3050 2600 50  0001 C CNN
+F 3 "~" H 3050 2600 50  0001 C CNN
+	1    3050 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2900 2600 2700 2600
+Wire Wire Line
+	2700 2600 2700 2250
+$Comp
+L Device:D_TVS D20
+U 1 1 5CDDFBCE
+P 3600 2600
+F 0 "D20" H 3450 2700 50  0000 L CNN
+F 1 "D_TVS" H 3450 2500 50  0000 L CNN
+F 2 "Diode_SMD:D_SMB" H 3600 2600 50  0001 C CNN
+F 3 "~" H 3600 2600 50  0001 C CNN
+	1    3600 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3200 2600 3300 2600
+Wire Wire Line
+	3300 2600 3300 2250
+Connection ~ 3300 2600
+Wire Wire Line
+	3300 2600 3450 2600
+Connection ~ 3300 2250
+Wire Wire Line
+	3300 2250 3400 2250
+Wire Wire Line
+	3750 2600 3900 2600
+Wire Wire Line
+	3900 2600 3900 2250
 $EndSCHEMATC
