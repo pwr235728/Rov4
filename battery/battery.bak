@@ -384,7 +384,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 3950 2800 3950
 Wire Wire Line
-	2450 3600 2450 3950
+	2450 3600 2450 3700
 Wire Wire Line
 	2800 3600 2800 3950
 Connection ~ 2800 3950
@@ -829,4 +829,83 @@ Wire Wire Line
 Connection ~ 7900 3450
 Wire Wire Line
 	7900 3450 7900 3650
+$Comp
+L Device:C C?
+U 1 1 5D206E7C
+P 2200 3450
+F 0 "C?" H 2315 3497 50  0000 L CNN
+F 1 "10uF" H 2315 3404 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2238 3300 50  0001 C CNN
+F 3 "~" H 2200 3450 50  0001 C CNN
+	1    2200 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2200 3300 2200 3150
+Wire Wire Line
+	2200 3150 2450 3150
+Wire Wire Line
+	2200 3600 2200 3700
+Wire Wire Line
+	2200 3700 2450 3700
+Connection ~ 2450 3700
+Wire Wire Line
+	2450 3700 2450 3950
+$Comp
+L Device:C C?
+U 1 1 5D21C25D
+P 3800 3450
+F 0 "C?" H 3915 3497 50  0000 L CNN
+F 1 "10uF" H 3915 3404 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3838 3300 50  0001 C CNN
+F 3 "~" H 3800 3450 50  0001 C CNN
+	1    3800 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 3300 3800 3150
+Wire Wire Line
+	3800 3150 4050 3150
+Wire Wire Line
+	3800 3600 3800 3700
+Wire Wire Line
+	3800 3700 4050 3700
+$Comp
+L Device:C C?
+U 1 1 5D221EA2
+P 5400 3450
+F 0 "C?" H 5515 3497 50  0000 L CNN
+F 1 "10uF" H 5515 3404 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5438 3300 50  0001 C CNN
+F 3 "~" H 5400 3450 50  0001 C CNN
+	1    5400 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 3300 5400 3150
+Wire Wire Line
+	5400 3150 5650 3150
+Wire Wire Line
+	5400 3600 5400 3700
+Wire Wire Line
+	5400 3700 5650 3700
+$Comp
+L Device:C C?
+U 1 1 5D22807A
+P 7000 3450
+F 0 "C?" H 7115 3497 50  0000 L CNN
+F 1 "10uF" H 7115 3404 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7038 3300 50  0001 C CNN
+F 3 "~" H 7000 3450 50  0001 C CNN
+	1    7000 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7000 3300 7000 3150
+Wire Wire Line
+	7000 3150 7250 3150
+Wire Wire Line
+	7000 3600 7000 3700
+Wire Wire Line
+	7000 3700 7250 3700
 $EndSCHEMATC

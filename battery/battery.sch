@@ -384,8 +384,6 @@ Wire Wire Line
 Wire Wire Line
 	2450 3950 2800 3950
 Wire Wire Line
-	2450 3600 2450 3700
-Wire Wire Line
 	2800 3600 2800 3950
 Connection ~ 2800 3950
 Wire Wire Line
@@ -395,13 +393,9 @@ Wire Wire Line
 Wire Wire Line
 	3550 3600 3550 3950
 Wire Wire Line
-	4050 3600 4050 3850
-Wire Wire Line
 	4400 3600 4400 3850
 Wire Wire Line
 	5150 3600 5150 3850
-Wire Wire Line
-	5650 3600 5650 3750
 Wire Wire Line
 	6000 3600 6000 3750
 Wire Wire Line
@@ -487,9 +481,6 @@ $EndComp
 Connection ~ 9350 2750
 Wire Wire Line
 	7250 2850 7250 2400
-Connection ~ 7250 2400
-Wire Wire Line
-	7250 2400 8050 2400
 Wire Wire Line
 	5650 2850 5650 2400
 Wire Wire Line
@@ -685,7 +676,6 @@ Wire Wire Line
 	9350 2400 9350 2750
 Wire Wire Line
 	8050 2350 8050 2400
-Connection ~ 8050 2400
 Wire Wire Line
 	8050 2400 8700 2400
 $Comp
@@ -829,12 +819,16 @@ Wire Wire Line
 Connection ~ 7900 3450
 Wire Wire Line
 	7900 3450 7900 3650
+Wire Wire Line
+	7250 2400 8050 2400
+Connection ~ 7250 2400
+Connection ~ 8050 2400
 $Comp
-L Device:C C?
-U 1 1 5D206E7C
+L Device:C C7
+U 1 1 5D247DA5
 P 2200 3450
-F 0 "C?" H 2315 3497 50  0000 L CNN
-F 1 "10uF" H 2315 3404 50  0000 L CNN
+F 0 "C7" H 2085 3403 50  0000 R CNN
+F 1 "100n" H 2085 3496 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2238 3300 50  0001 C CNN
 F 3 "~" H 2200 3450 50  0001 C CNN
 	1    2200 3450
@@ -848,15 +842,12 @@ Wire Wire Line
 	2200 3600 2200 3700
 Wire Wire Line
 	2200 3700 2450 3700
-Connection ~ 2450 3700
-Wire Wire Line
-	2450 3700 2450 3950
 $Comp
-L Device:C C?
-U 1 1 5D21C25D
+L Device:C C8
+U 1 1 5D24D386
 P 3800 3450
-F 0 "C?" H 3915 3497 50  0000 L CNN
-F 1 "10uF" H 3915 3404 50  0000 L CNN
+F 0 "C8" H 3685 3403 50  0000 R CNN
+F 1 "100n" H 3685 3496 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3838 3300 50  0001 C CNN
 F 3 "~" H 3800 3450 50  0001 C CNN
 	1    3800 3450
@@ -871,11 +862,11 @@ Wire Wire Line
 Wire Wire Line
 	3800 3700 4050 3700
 $Comp
-L Device:C C?
-U 1 1 5D221EA2
+L Device:C C9
+U 1 1 5D252E37
 P 5400 3450
-F 0 "C?" H 5515 3497 50  0000 L CNN
-F 1 "10uF" H 5515 3404 50  0000 L CNN
+F 0 "C9" H 5285 3403 50  0000 R CNN
+F 1 "100n" H 5285 3496 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5438 3300 50  0001 C CNN
 F 3 "~" H 5400 3450 50  0001 C CNN
 	1    5400 3450
@@ -890,11 +881,11 @@ Wire Wire Line
 Wire Wire Line
 	5400 3700 5650 3700
 $Comp
-L Device:C C?
-U 1 1 5D22807A
+L Device:C C10
+U 1 1 5D258E5B
 P 7000 3450
-F 0 "C?" H 7115 3497 50  0000 L CNN
-F 1 "10uF" H 7115 3404 50  0000 L CNN
+F 0 "C10" H 6885 3403 50  0000 R CNN
+F 1 "100n" H 6885 3496 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7038 3300 50  0001 C CNN
 F 3 "~" H 7000 3450 50  0001 C CNN
 	1    7000 3450
@@ -908,4 +899,22 @@ Wire Wire Line
 	7000 3600 7000 3700
 Wire Wire Line
 	7000 3700 7250 3700
+Wire Wire Line
+	2450 3600 2450 3700
+Connection ~ 2450 3700
+Wire Wire Line
+	2450 3700 2450 3950
+Wire Wire Line
+	4050 3600 4050 3700
+Connection ~ 4050 3700
+Wire Wire Line
+	4050 3700 4050 3850
+Wire Wire Line
+	5650 3600 5650 3700
+Connection ~ 5650 3700
+Wire Wire Line
+	5650 3700 5650 3750
+Wire Wire Line
+	7250 3700 7250 3650
+Connection ~ 7250 3650
 $EndSCHEMATC
