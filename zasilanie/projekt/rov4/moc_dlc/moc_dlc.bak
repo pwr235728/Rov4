@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 4 4
 Title ""
 Date ""
 Rev ""
@@ -290,14 +290,6 @@ Wire Wire Line
 Wire Wire Line
 	7000 4300 7050 4300
 Connection ~ 7050 4300
-Wire Notes Line
-	8600 3600 8600 5350
-Wire Notes Line
-	8600 5350 2550 5350
-Wire Notes Line
-	2550 3600 8600 3600
-Text Notes 2850 3800 0    59   ~ 0
-Osobne pcb
 $Comp
 L Connector_Generic:Conn_02x02_Counter_Clockwise J?
 U 1 1 5D005F47
@@ -368,8 +360,6 @@ Connection ~ 2300 4200
 Wire Wire Line
 	2300 4200 2750 4200
 Connection ~ 2750 4200
-Wire Wire Line
-	2800 4700 2750 4700
 Connection ~ 2300 4700
 Wire Wire Line
 	2300 4700 2200 4700

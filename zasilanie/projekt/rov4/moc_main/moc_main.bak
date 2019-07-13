@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -1105,12 +1105,6 @@ S 5950 1000 2850 1900
 U 5CFC4C34
 F0 "moc_dlc" 59
 F1 "../moc_dlc/moc_dlc.sch" 59
-$EndSheet
-$Sheet
-S 9050 1000 1950 1700
-U 5CFCF483
-F0 "moc_extra" 59
-F1 "../moc_extra/moc_extra.sch" 59
 $EndSheet
 $Comp
 L Connector_Generic:Conn_02x02_Counter_Clockwise J28
